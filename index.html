@@ -1,52 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Andover Athanaeum</title>
+    <meta name="description" content="Andover Athenaeum">
+    <meta name="author" content="Andover Athenaeum Phillips Academy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/basic.css?v=1.0">
+    <!--link rel="stylesheet" href="styles/articles.css?v=1.0"-->
+    <link rel="icon" href="img/favicon.ico" sizes="16x16" type="image/png">
+  </head>
+  <body>
+    <script src="nc_assets/scripts/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#nav-container').load('nav.html');
+      });
+      $(document).scroll(function () {
+        if ($(window).height() + $(this).scrollTop() > $("#founder1").offset().top) {
+            $("#founder1").animate({
+                'opacity': '1'
+            }, 1500);
+            $("#founder2").animate({
+                'opacity': '1'
+            }, 3500);
+            $("#founder3").animate({
+                'opacity': '1'
+            }, 5500);
+        }
+      });
+    </script>
+    <div id="nav-container"></div>
+    <img src="img/rome_basic.jpg" alt="Photo by Mike Andrei from Pexels" class="parallax" id="first-img"/>
+    <h1 class="central-header" id="first-header">Phillips Academy’s Classics Magazine</h1>
+    <div class="parallax" id="mission">
+      <br />
+      <div id="block-header"><h1>A Letter from the Founders</h1></div>
+      <div id="image-sidebar">
+        <div id="founder1"><img src="img/jonathanfu.png" alt=""/><h4>Jonathan Fu</h4></div>
+        <div id="founder2"><img src="img/nakuliyer.png" alt=""/><h4>Nakul Iyer</h4></div>
+        <div id="founder3"><img src="img/williamyue.png" alt=""/><h4>William Yue</h4></div>
+      </div>
+      <p>
+        Welcome to the first issue of Andover Athenaeum, Phillips Academy’s Classics Magazine! This is a place for discussion, creativity, and general awareness of the Classics, both at Andover and in the world. In this installment, we focus on Broadening Our View of the Classics.
 
-  <title>The Andover Athanaeum</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+        Classics, the study of Ancient Greek and Latin and their respective history, philosophy, and literature, is one of the cornerstones of the Humanities. Its profound impact on areas such as law, politics, and philosophy is clear even in the modern day, more than two millennia later. The works of Homer, Aristotle, Ovid, Virgil, Marcus Aurelius, and countless others have been recreated and referenced in all aspects of the modern world, whether it be literature, architecture, or politics.
 
-  <link rel="stylesheet" href="nc_assets/css/basic.css?v=1.0">
-  <link rel="stylesheet" href="nc_assets/css/articles.css?v=1.0">
-</head>
-<body>
-  <script src="nc_assets/scripts/scripts.js"></script>
-  <img class="background-img" src="nc_assets/img/cover-banner.jpg"} alt="Pearson Hall"/>
-  <div class="top-banner" id="top-fixed-banner">
-    <div class="inside-top-banner" id="inside-top-banner">
-      <h1 class="top-banner-title">
-        <a href="index.html">Andover Athenaeum</a>
-        <div class="horiz-bar-m"></div>
-      </h1>
-      <ul class="top-banner-list toolbar-left">
-        <li class="top-banner-li"><a><div>This Month</div><div class="horiz-bar-ms"></div></a></li>
-      </ul>
-      <ul class="top-banner-list toolbar-right">
-        <li class="top-banner-li"><a href="about.html"><div>About</div><div class="horiz-bar-s"></div></a></li>
-        <li class="top-banner-li"><a href="about.html#writeforus"><div>Write for Us</div><div class="horiz-bar-s"></div></a></li>
-      </ul>
+        The impact of the Classics is prominent on our campus: the Doric columns of Samuel Phillips Hall, the graduation awards (cum laude, magna cum laude, summa cum laude), and our school mottos (non sibi, finis origine pendet). The roots of the Classical languages are seen everyday in Bulfinch Hall (Over 60% of English has Ancient Greek or Latin roots), Euclidean Geometry is hard to miss in our introductory mathematics courses, and the resounding echoes of the Julian calendar are unmistakable as we plan out our weeks in Andover planners.
+
+        Pearson Hall stands proudly in the school’s busiest quadrangle, flanked by its frosh-faced counterparts Morse Hall and Oliver Wendell Holmes Library (OWHL). It has been the home of Phillips Academy’s Classics Department for over 200 years and recently welcomed the Tang Institute and Academic Skills Center during the OWHL renovation as well. Not many high schools, let alone universities in the world have their own Classics building.
+
+        And yet, interest in the Classics has declined severely throughout the 20th and early 21st centuries. It has been abandoned and neglected by many, viewed as a subject for elites and “people with nothing else better to do.” Ancient Greek and Latin are “dead languages.” That is the harsh reality of the modern perspective of Classics, both at Andover and in the world as a whole.
+
+        Andover Athenaeum is here to revitalize our collective understanding and perspective on the Classics. You’ll read about the new and upcoming students and researchers in the Classics world, some who reside on this very campus. You’ll immerse yourself in dozens of literary compositions and essays written by students, alumni, and other Classicists in the world. You’ll even get to read about the impact of Classics on this very campus, whether it be the variety of inscriptions scattered across campus or the physical heart of Classics here at Phillips Academy: Pearson Hall.
+
+        Welcome to the world of the Classics in Andover Athenaeum!
+
+        Valēte/Ὑπιαίνετε,
+        Jonathan Fu ’21, William Yue ’22, Nakul Iyer ’20
+      </p>
     </div>
-  </div>
-  <div class="content-root">
-    <div class="content-header">
-      <div id="motto">Senatus Populusque Romanus</div>
-      &emsp;•&emsp;
-      <div id="header-value">Featured Articles</div>
-      &emsp;•&emsp;
-      <div id="english">The Senate and the People of Rome</div>
-    </div>
-    <div class="content-panel" id="content-panel">
-    </div>
-    <footer>
+  <!--footer>
       <div class="inside-bottom-banner">
         <ul class="bottom-banner-li">
           <li><a href="about.html">About</a></li>
           <li><a href="mailto:andoverathenaeum@gmail.com">Contact us</a></li>
           <li><a href="privacy-policy.html">Privacy Policy</a></li>
         </ul>
-    </div>
-    </footer>
-  </div>
-  </body>
+      </div>
+    </footer-->
+    </body>
   </html>

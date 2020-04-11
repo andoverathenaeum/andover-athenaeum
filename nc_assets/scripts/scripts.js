@@ -34,7 +34,7 @@ function urlExists(extension) {
 
 window.onload = async function() {
 	// get quote of the day
-  if (false && sessionStorage.getItem("motto")) {
+  /*if (false && sessionStorage.getItem("motto")) {
     document.getElementById("motto").textContent = sessionStorage.getItem("motto");
 		document.getElementById("english").textContent = sessionStorage.getItem("english");
   } else {
@@ -47,7 +47,7 @@ window.onload = async function() {
     // sessionStorage.setItem("motto", json[idx][0])
     // sessionStorage.setItem("english", json[idx][1])
 	})
-  }
+}*/
 
 	//load articles
 	var articles_str = await makeRequest('GET', 'nc_assets/articles/current_articles.txt');

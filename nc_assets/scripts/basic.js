@@ -22,8 +22,7 @@ async function makeRequest (method, extension) {
   });
 }
 
-window.onload = async function() {
-	// get quote of the day
+/*window.onload = async function() {
   if (false && sessionStorage.getItem("motto")) {
     document.getElementById("motto").textContent = sessionStorage.getItem("motto");
 		document.getElementById("english").textContent = sessionStorage.getItem("english");
@@ -38,4 +37,4 @@ window.onload = async function() {
     // sessionStorage.setItem("english", json[idx][1])
 	})
   }
-}
+}*/
