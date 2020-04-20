@@ -282,9 +282,13 @@ a {
 
 .parallax#mission #image-sidebar img {
   width: 130px;
+  height: 130px;
   display: block;
   margin: 30px auto 10px auto;
   border-radius: 65px;
+  object-fit: cover;
+  background-color: beige;
+  /* box-shadow: 0 0 5px 10px #555; */
 }
 
 .parallax#mission #image-sidebar h4 {

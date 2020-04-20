@@ -12,6 +12,15 @@
   </head>
   <body>
     <!-- <script src="nc_assets/scripts/scripts.js"></script> -->
+    <!-- <script>
+      var $el = document.getElementById('nav-container')
+        // , $img = $el.getElementsByTagName( 'img' )[0]
+        // , src  = $img.src
+
+      console.log($el)
+      $el.innerHTML = "";
+      $el.style.background = "url( " + src + " ) repeat-x;"
+    </script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
@@ -33,6 +42,12 @@
             }, 4500);
         }
       });
+      // $(document).ready(function () {
+      //   $("#image-sidebar").children().each(function() {
+      //     var src = $(this).find('img')[0].src
+      //     $(this).css('background', "url( " + src + " ) repeat-x")
+      //   })
+      // })
     </script>
     <div id="nav-container"></div>
     <img src="img/rome_basic.jpg" alt="Photo by Mike Andrei from Pexels" class="parallax" id="first-img"/>
@@ -44,7 +59,7 @@
         <div id="image-sidebar">
           <div id="founder1"><img src="img/jonathanfu.png" alt=""/><h4>Jonathan Fu</h4></div>
           <div id="founder2"><img src="img/nakuliyer.png" alt=""/><h4>Nakul Iyer</h4></div>
-          <div id="founder3"><img src="img/williamyue.png" alt=""/><h4>William Yue</h4></div>
+          <div id="founder3"><img src="img/williamyue.jpg" alt=""/><h4>William Yue</h4></div>
         </div>
         <p>
           Welcome to the first issue of Andover Athenaeum, Phillips Academy’s Classics Magazine! This is a place for discussion, creativity, and general awareness of the Classics, both at Andover and in the world. In this installment, we focus on Broadening Our View of the Classics.
