@@ -17,7 +17,7 @@ $(document).ready(function() {
           var article = j.split(" :: ")[0]
           var link = j.split(" :: ")[1]
 
-          $(`<a href="article.html?desc=${link}" target="_blank" class="section-link">`).html(article).appendTo(p)
+          $(`<a href="article.html?desc=${link}" class="section-link">`).html(article).appendTo(p)
           $(`<br>`).appendTo(p)
         })
         // console.log(sectsplitarr[i].split("\n"))
