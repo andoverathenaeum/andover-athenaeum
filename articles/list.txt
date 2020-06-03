@@ -1,0 +1,36 @@
+Magazine Pieces List
+---
+Introduction
+---
+Editor’s Letter :: introductory
+---
+Features
+---
+Pearson Hall :: pearson
+Teacher Feature: Ms. Carter :: carter
+Student Feature: Axel Ladd :: aladd
+Alumni Feature: Brian Ko ‘19 :: bko
+---
+News
+---
+Latin Isn’t Dead Yet :: latindead
+Jonathan Shay :: jonathanshay
+Mary Beard :: mbeard
+---
+Literary
+---
+“Lupa” :: lupa
+Petrarch and His Revival of Classical Culture :: petrarch
+Plagues in Antiquity :: plagues
+Andover Classics Club :: ClassicsClub
+Wrestling in Ancient Rome and Greece :: wrestling
+Pythagoras :: yue
+Digital Feature: Alpheios :: Alpheios
+SPQR :: SPQRBookReview
+Classics Fun: Fast Facts/Phrases/Idioms/Jokes :: funfacts&idioms
+Classics Crossword :: cw
+Duolingo :: DuolingoLatin
+Learn Classics: Reading, Books, and Media :: FeaturedReadings
+Digital Feature: SPQR and Ancient Greek Apps :: SPQRAncientGreekApps
+Classics Classes :: ClassicsClasses
+Books to Start Learning Classics :: BookstoStartLearning

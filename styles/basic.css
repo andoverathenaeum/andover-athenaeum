@@ -5,6 +5,10 @@
 @font-face { font-family: "CinzelDeco"; src: url("../fonts/CinzelDecorative-Bold.otf") format("truetype"); }
 @font-face { font-family: "EBGaramond"; src: url("../fonts/EBGaramond12-Regular.otf") format("truetype"); }
 @font-face { font-family: "EBGaramondTitle"; src: url("../fonts/EBGaramondSC12-Regular.otf") format("truetype"); }
+@font-face { font-family: "Bungee"; src: url("../fonts/Bungee/Bungee-Inline.otf") format("truetype"); }
+@font-face { font-family: "RobotoSlab"; src: url("../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf") format("truetype"); }
+@font-face { font-family: "Utopia"; src: url("../fonts/utopia-std/UtopiaStd-BoldSubh.otf") format("truetype"); }
+@font-face { font-family: "UtopiaBH"; src: url("../fonts/utopia-std/UtopiaStd-BlackHeadline.otf") format("truetype"); }
 
 html {
   scroll-behavior: smooth;
@@ -180,7 +184,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
+  z-index: 100;
 }
 
 .parallax#first-img {
@@ -205,6 +209,7 @@ a {
   position: absolute;
   width: 100%;
   margin: 0;
+  z-index: 999;
   white-space: nowrap;
 }
 
@@ -237,7 +242,7 @@ a {
 	color: #04777d;
 	margin-top: 0;
 	margin-bottom: 0;
-  cursor: pointer;
+  cursor: default;
   width: 50%;
   margin: 0 15%;
 
@@ -262,7 +267,7 @@ a {
   /* text-indent: 2em; */
   white-space: pre-line;
   margin: 0 15% 0 0;
-  cursor: pointer;
+  cursor: default;
   width: 50%;
   margin-bottom: 50px;
   height: auto;
@@ -281,13 +286,7 @@ a {
 }
 
 .parallax#mission #image-sidebar img {
-  width: 130px;
-  height: 130px;
-  display: block;
-  margin: 30px auto 10px auto;
-  border-radius: 65px;
-  object-fit: cover;
-  background-color: beige;
+
   /* box-shadow: 0 0 5px 10px #555; */
 }
 
@@ -299,15 +298,69 @@ a {
 	color: rgba(0, 0, 0, 0.6);
 }
 
-h3 {
-  text-align: center;
+h2 {
+  /* text-align: center;
 	font-family: "ITC Cheltenham Std";
-	font-size: 23px;
+	font-size: 34px;
 	color: #04777d;
 	margin-top: 0;
 	margin-bottom: 0;
-  cursor: pointer;
+  cursor: default;
+  margin-bottom: 20px; */
+  text-align: center;
+	font-family: "UtopiaBH", "ITC Cheltenham Std";
+	font-size: 48px;
+	color: #2A3759 /*#04777d*/;
+	margin-top: 0;
+	margin-bottom: 0;
+  cursor: default;
+  /* width: 80%; */
+  margin: 0;
+  /* float: right; */
+	/* transition: all .2s ease-in-out; */
+}
+
+h3 {
+  text-align: center;
+	/* font-family: "ITC Cheltenham Std"; */
+  font-family: "Cinzel", "ITC Cheltenham Std", Times New Roman;
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-top: 0;
+	margin-bottom: 0;
+  cursor: default;
+  margin-bottom: 5px;
+}
+
+h4 {
+  text-align: center;
+	font-family: "ITC Cheltenham Std";
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-top: 0;
+	margin-bottom: 0;
+  cursor: default;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.small-link {
+  text-align: center;
+  color: #006994;
+	font-family: "ITC Cheltenham Std";
+	font-size: 14px;
+  /* text-decoration: underline; */
+  font-style: italic;
+  z-index: 999999;
+
+}
+
+.small-link a {
+  cursor: pointer;
+}
+
+.small-link a:visited {
+  color: #4f42b5;
 }
 
 
@@ -432,11 +485,11 @@ h3 {
 
 footer {
   height: 80px;
-  width: 125%;
+  width: 100%;
   background-color: black;
   position: absolute;
   /* bottom: -50px; */
-  left: -12.5%;
+  /* left: -12.5%; */
   color: rgba(255, 255, 255, 1);
 }
 
@@ -457,7 +510,7 @@ footer img {
 }
 
 .inside-bottom-banner {
-  margin: 0 10%;
+  margin: 0;
   padding: 0;
 }
 
@@ -475,4 +528,29 @@ footer img {
 
 .bottom-banner-li li {
   padding: 0 30px 0 0;
+}
+
+.content-panel {
+  font-family: "EBGaramond";
+  font-size: 17px;
+  margin-bottom: 50px;
+  height: auto;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.author-bubble {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: 30px auto 10px auto;
+  border-radius: 65px;
+  object-fit: cover;
+  background-color: beige;
+  transition: all .2s ease-in-out;
+}
+
+.author-bubble:hover {
+  transform: scale(1.05);
 }

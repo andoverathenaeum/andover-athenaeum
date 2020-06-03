@@ -1,0 +1,13 @@
+<Section>Literary</Section>
+<Title>Classics Classes</Title>
+<Author>
+	<Name>Jonathan Fu</Name>
+	<Image>jonathanfu.png</Image>
+</Author>
+<Author>
+	<Name>Stephanie Yang</Name>
+</Author>
+
+<Text>
+<Image width:100%>ClassicsClasses.png</Image>
+</Text>
