@@ -237,14 +237,15 @@ a {
 
 .parallax#mission h1 {
   text-align: center;
-	font-family: "ITC Cheltenham Std";
-	font-size: 23px;
-	color: #04777d;
-	margin-top: 0;
-	margin-bottom: 0;
+    font-family: "ITC Cheltenham Std";
+    font-size: 23px;
+    color: #04777d;
+    margin-top: 0;
+    margin-bottom: 0;
   cursor: default;
-  width: 50%;
-  margin: 0 15%;
+  width: 100%;
+    margin: 0 auto;
+  /*margin: 0 15%;*/
 
   float: right;
 }
@@ -266,9 +267,9 @@ a {
   font-size: 17px;
   /* text-indent: 2em; */
   white-space: pre-line;
-  margin: 0 15% 0 0;
+  margin: 0 auto;
   cursor: default;
-  width: 50%;
+  width: 65%;
   margin-bottom: 50px;
   height: auto;
   display: inline-block;
