@@ -22,7 +22,7 @@ Welcome to the Andover Athenaeum Codebase! This is a pretty simple website made 
 
 **For editing Code**
 
-Everything is basically in the js files in `/scripts/` then run when the website loads up. Should be pretty easy to modify `/styles/` based on inspect-element -- you'll mostly want to edit `basic.css`.
+Everything is basically in the js files in `/scripts/` then run when the website loads up. Should be pretty easy to modify `/styles/` based on inspect-element -- you'll mostly want to edit `basic.css`. Most pressing TODO is to make the mobile site, as well as making the table of contents more interesting than just labels (like showing the first sentence of the article, small version of the author's image, and an image from the article, etc).
 
 ---
 
