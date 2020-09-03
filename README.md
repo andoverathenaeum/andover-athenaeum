@@ -22,7 +22,7 @@ Welcome to the Andover Athenaeum Codebase! This is a pretty simple website made 
 
 **For editing Code**
 
-It's pretty unreadable, but I'll try answering anything on slack/email. All the magic is basically in the js files in `/scripts/` then run when the website loads up. Should be pretty easy to modify `/styles/` based on inspect-element -- you'll mostly want to edit `basic.css`.
+Everything is basically in the js files in `/scripts/` then run when the website loads up. Should be pretty easy to modify `/styles/` based on inspect-element -- you'll mostly want to edit `basic.css`.
 
 ---
 
