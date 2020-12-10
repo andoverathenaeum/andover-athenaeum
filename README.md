@@ -28,3 +28,4 @@ Everything is basically in the js files in `/scripts/` then run when the website
 
 ## Authors
 * Nakul Iyer '20, email: nakulpiyer@gmail.com
+* Andrew Falcon '22, email: afalcon22@andover.edu
