@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "RomanSD";
+    src: url("../../public/fonts/Roman_SD.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ITC Cheltenham Std";
+    src: url("../../public/fonts/cheltenhamstd-book.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Mercury Text G1 Roman";
+    src: url("../../public/fonts/mercury-text-g1-roman.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("../../public/fonts/Cinzel-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "CinzelDeco";
+    src: url("../../public/fonts/CinzelDecorative-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "EBGaramond";
+    src: url("../../public/fonts/EBGaramond12-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "EBGaramondTitle";
+    src: url("../../public/fonts/EBGaramondSC12-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bungee";
+    src: url("../../public/fonts/Bungee/Bungee-Inline.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("../../public/fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Utopia";
+    src: url("../../public/fonts/utopia-std/UtopiaStd-BoldSubh.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "UtopiaBH";
+    src: url("../../public/fonts/utopia-std/UtopiaStd-BlackHeadline.otf") format("truetype");
+}
