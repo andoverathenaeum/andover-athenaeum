@@ -50,14 +50,14 @@ export function Header() {
           <div className="hidden md:block md:ml-6">
             <div className="roman flex space-x-5">
               <Link
-                to="/"
-                href="/"
+                to="/archives"
+                href="/archives"
               >
                 <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Archives</a>
               </Link>
               <Link
-                to="/"
-                href="/"
+                to="/latest"
+                href="/latest"
               >
                 <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Latest
                                                                                                                             Issue</a>
@@ -75,14 +75,14 @@ export function Header() {
                 </a>
               </Link>
               <Link
-                to="/"
-                href="/"
+                to="/about"
+                href="/about"
               >
                 <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">About</a>
               </Link>
               <Link
-                to="/"
-                href="/"
+                to="/write-for-us"
+                href="/write-for-us"
               >
                 <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Write
                                                                                                                             for
