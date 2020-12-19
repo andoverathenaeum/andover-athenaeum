@@ -1,0 +1,31 @@
+.meet-board {
+  table-layout: fixed;
+  width: 100%;
+  /* white-space: nowrap; */
+}
+
+.meet-board p {
+  max-width: 25vw;
+  margin: auto;
+}
+
+.meet-board tr {
+  width: 100%;
+}
+
+.meet-board td {
+  text-align: center;
+  vertical-align: top;
+}
+
+.meet-board th {
+  text-align: center;
+	/* font-family: "ITC Cheltenham Std"; */
+  font-family: "Cinzel", "ITC Cheltenham Std", Times New Roman;
+	font-size: 17px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-top: 0;
+	margin-bottom: 0;
+  cursor: default;
+  margin-bottom: 5px;
+}

@@ -1,5 +1,53 @@
 @import "fonts.css";
+@import "basic.css";
+@import "about.css";
+@import "articles.css";
+@import "meet-board.css";
 
 .roman {
     font-family: "RomanSD", Times New Roman, sans-serif;
+}
+
+.cinzel-lg {
+    font-family: "CinzelDeco", serif;
+    font-weight: bold;
+    font-size: min(6vw, 50px);
+    cursor: default;
+    pointer-events: none;
+}
+
+.article {
+    font-family: "EBGaramond", serif;
+    font-size: 17px;
+    white-space: pre-line;
+    text-indent: 3ch;
+    cursor: default;
+    max-width: 100ch !important; /* tailwind override */
+}
+
+.two-column {
+    column-count: 2;
+}
+
+.title {
+    text-align: center;
+    font-family: "UtopiaBH", "ITC Cheltenham Std", serif;
+    font-size: 48px;
+    color: #2A3759 !important;
+    cursor: default;
+    margin: 0 !important;
+}
+
+.author {
+    text-align: center;
+    font-family: "ITC Cheltenham Std", serif;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.author:hover {
+    color: rgba(0, 0, 0, 0.4);
 }
