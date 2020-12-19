@@ -4,7 +4,7 @@ import Image from 'next'
 
 export function Footer() {
   return (
-    <nav className="bg-gray-800 mt-12 z-50 w-screen">
+    <nav className="bg-gray-800 z-50 w-screen">
       <div className="inside-bottom-banner">
         <ul className="bottom-banner-li roman text-md text-white pl-6 pt-2 flex text-center h-10">
           <li><a href="https://andoverathenaeum.com/about">About</a></li>
