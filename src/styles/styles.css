@@ -1,8 +1,7 @@
 @import "fonts.css";
-@import "basic.css";
-@import "about.css";
-@import "articles.css";
-@import "meet-board.css";
+/*@import "basic.css";*/
+/*@import "about.css";*/
+/*@import "meet-board.css";*/
 
 .roman {
     font-family: "RomanSD", Times New Roman, sans-serif;
@@ -16,6 +15,11 @@
     pointer-events: none;
 }
 
+.cinzel-sm {
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+}
+
 .bottom-banner-li {
     list-style-type: none;
     vertical-align: middle;
@@ -25,7 +29,6 @@
 .article {
     font-family: "EBGaramond", serif;
     font-size: 17px;
-    white-space: pre-line;
     text-indent: 3ch;
     cursor: default;
     max-width: 100ch !important; /* tailwind override */
@@ -33,11 +36,7 @@
 
 .article p {
     margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
-
-.two-column {
-    column-count: 2;
+    margin-bottom: 15px !important;
 }
 
 .title {

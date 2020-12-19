@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div className="mt-6 sm:mt-12">
         <h1 className="mx-auto title">A Letter from the Founders</h1>
-        <Markdown src='/ui-md/founders-letter.md' />
+        <Markdown src='/ui-md/founders-letter.md' columns={2} />
       </div>
     </div>
   )

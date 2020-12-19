@@ -1,0 +1,3 @@
+Thank you for your consideration in writing an article for _Andover Athenaeum_! As we begin to compile articles for our first issue in May, we are looking for anyone with an interest in the Classics to write! You can choose to write a News article, a Feature article, or any type of compositional or essay piece for the literary portion of the magazine! News articles can range from 800-1,200 words, Feature articles can range from 500-1,000 words, and literary pieces are not constrained to any type of word limit.  
+
+[Contact us](mailto:andoverathenaeum@gmail.com) and we’ll be in touch with specific details such as article topics and writing guidelines!
