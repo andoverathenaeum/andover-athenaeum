@@ -31,6 +31,11 @@
     max-width: 100ch !important; /* tailwind override */
 }
 
+.article p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
 .two-column {
     column-count: 2;
 }

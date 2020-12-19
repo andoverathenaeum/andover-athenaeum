@@ -1,7 +1,13 @@
 import Head from 'next/head'
-import React from 'react'
+import React, { useState } from 'react'
+import { Remarkable } from 'remarkable'
+
+const rmk = new Remarkable({ html: true })
 
 export default function Home() {
+  const [md, setMd] = useState('')
+  fetch('/ui-md/founders-letter.md').then((i) => i.text()).then((i) => setMd(rmk.render(i)))
+
   return (
     <div>
       <Head>
@@ -51,77 +57,10 @@ export default function Home() {
       </div>
       <div className="mt-6 sm:mt-12">
         <h1 className="mx-auto title">A Letter from the Founders</h1>
-        <div className="mx-auto prose article two-column prose-indigo prose-lg text-gray-500">
-          <p>
-            Welcome to Andover Athenaeum, Phillips Academy’s
-            Classics Magazine! This is a place for discussion,
-            creativity, and general awareness of the Classics, both
-            at Andover and in the world. In this installment, we
-            focus on Broadening Our View of the Classics.
-          </p>
-          <p>
-            Classics, the study of Ancient Greek and Latin and their
-            respective history, philosophy, and literature, is one
-            of the cornerstones of the Humanities. Its profound
-            impact on areas such as law, politics, and philosophy is
-            clear even in the modern day, more than two millennia
-            later. The works of Homer, Aristotle, Ovid, Virgil,
-            Marcus Aurelius, and countless others have been
-            recreated and referenced in all aspects of the modern
-            world, whether it be literature, architecture, or
-            politics.
-          </p>
-          <p>
-            The impact of the Classics is prominent on our campus:
-            the Doric columns of Samuel Phillips Hall, the
-            graduation awards (cum laude, magna cum laude, summa cum
-            laude), and our school mottos (non sibi, finis origine
-            pendet). The roots of the Classical languages are seen
-            everyday in Bulfinch Hall (Over 60% of English has
-            Ancient Greek or Latin roots), Euclidean Geometry is
-            hard to miss in our introductory mathematics courses,
-            and the resounding echoes of the Julian calendar are
-            unmistakable as we plan out our weeks in Andover
-            planners.
-          </p>
-          <p>
-            Pearson Hall stands proudly in the school’s busiest
-            quadrangle, flanked by its frosh-faced counterparts
-            Morse Hall and Oliver Wendell Holmes Library (OWHL). It
-            has been the home of Phillips Academy’s Classics
-            Department for over 200 years and recently welcomed the
-            Tang Institute and Academic Skills Center during the
-            OWHL renovation as well. Not many high schools, let
-            alone universities in the world have their own Classics
-            building.
-          </p>
-          <p>
-            And yet, interest in the Classics has declined severely
-            throughout the 20th and early 21st centuries. It has
-            been abandoned and neglected by many, viewed as a
-            subject for elites and “people with nothing else better
-            to do.” Ancient Greek and Latin are “dead languages.”
-            That is the harsh reality of the modern perspective of
-            Classics, both at Andover and in the world as a whole.
-          </p>
-          <p>
-            Andover Athenaeum is here to revitalize our collective
-            understanding and perspective on the Classics. You’ll
-            read about the new and upcoming students and researchers
-            in the Classics world, some who reside on this very
-            campus. You’ll immerse yourself in dozens of literary
-            compositions and essays written by students, alumni, and
-            other Classicists in the world. You’ll even get to read
-            about the impact of Classics on this very campus,
-            whether it be the variety of inscriptions scattered
-            across campus or the physical heart of Classics here at
-            Phillips Academy: Pearson Hall.
-          </p>
-          <p>
-            Welcome to the world of the Classics in Andover
-            Athenaeum!
-          </p>
-        </div>
+        <div
+          className="mx-auto prose article two-column prose-indigo text-gray-500"
+          dangerouslySetInnerHTML={{ __html: md }}
+        />
       </div>
     </div>
   )

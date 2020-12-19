@@ -10,12 +10,14 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.3.1",
     "autoprefixer": "^10.1.0",
+    "fs": "^0.0.1-security",
     "next": "10.0.3",
     "next-seo": "^4.17.0",
     "postcss": "^8.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router-dom": "^5.2.0",
+    "remarkable": "^2.0.1",
     "tailwindcss": "^2.0.2"
   }
 }
