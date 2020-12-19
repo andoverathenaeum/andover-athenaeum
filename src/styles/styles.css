@@ -16,6 +16,12 @@
     pointer-events: none;
 }
 
+.bottom-banner-li {
+    list-style-type: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
 .article {
     font-family: "EBGaramond", serif;
     font-size: 17px;

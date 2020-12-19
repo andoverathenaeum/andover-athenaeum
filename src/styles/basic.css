@@ -482,18 +482,6 @@ footer img {
   padding: 0;
 }
 
-.bottom-banner-li {
-  color: #ffffff;
-	font-family: "RomanSD", Times New Roman, sans-serif;
-	font-size: 16px;
-	list-style-type: none;
-	vertical-align: middle;
-	text-align: center;
-  cursor: pointer;
-  display: flex;
-  margin: 12px;
-}
-
 .bottom-banner-li li {
   padding: 0 30px 0 0;
 }
