@@ -1,13 +1,8 @@
 import Head from 'next/head'
-import React, { useState } from 'react'
-import { Remarkable } from 'remarkable'
-
-const rmk = new Remarkable({ html: true })
+import React from 'react'
+import Markdown from '../components/markdown'
 
 export default function Home() {
-  const [md, setMd] = useState('')
-  fetch('/ui-md/founders-letter.md').then((i) => i.text()).then((i) => setMd(rmk.render(i)))
-
   return (
     <div>
       <Head>
@@ -57,10 +52,7 @@ export default function Home() {
       </div>
       <div className="mt-6 sm:mt-12">
         <h1 className="mx-auto title">A Letter from the Founders</h1>
-        <div
-          className="mx-auto prose article two-column prose-indigo text-gray-500"
-          dangerouslySetInnerHTML={{ __html: md }}
-        />
+        <Markdown src='/ui-md/founders-letter.md' />
       </div>
     </div>
   )

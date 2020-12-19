@@ -53,14 +53,14 @@ export function Header() {
                 to="/archives"
                 href="/archives"
               >
-                <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Archives</a>
+                <a className="transition-all text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Archives</a>
               </Link>
               <Link
                 to="/latest"
                 href="/latest"
               >
-                <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Latest
-                                                                                                                            Issue</a>
+                <a className="transition-all text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Latest
+                                                                                                                                           Issue</a>
               </Link>
               <Link
                 to="/"
@@ -78,15 +78,15 @@ export function Header() {
                 to="/about"
                 href="/about"
               >
-                <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">About</a>
+                <a className="transition-all text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">About</a>
               </Link>
               <Link
                 to="/write-for-us"
                 href="/write-for-us"
               >
-                <a className="text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">Write
-                                                                                                                            for
-                                                                                                                            Us</a>
+                <a className="transition-all text-gray-500 hover:bg-gray-100 px-3 py-2 my-auto rounded-md text-md text-center font-medium">
+                  Write for Us
+                </a>
               </Link>
             </div>
           </div>
