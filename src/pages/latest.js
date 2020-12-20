@@ -16,7 +16,7 @@ export default function Latest() {
         const articlePromises = i[ 'articles' ].map(({ source }) => fetch(`/articles/sources/${source}/article.md`))
         Promise.all(articlePromises)
           .then(is => Promise.all(is.map(i => i.text())))
-          .then((i) => setPreviews(i.map((article) => (article.substring(0, 200).replace(/[^a-z0-9]|\s+|\r?\n|\r/gmi, " ") + '...'))))
+          .then((i) => setPreviews(i.map((article) => (article.replace(/<.*?>/g, " ").replace(/#/g, " ")))))
       })
   }
 
@@ -57,7 +57,7 @@ export default function Latest() {
                       </p>
                       <p
                         className="mercury mt-3 text-base text-gray-500"
-                        dangerouslySetInnerHTML={{ __html: previews !== null && previews[ i ] }}
+                        dangerouslySetInnerHTML={{ __html: previews !== null && previews[ i ].substring(0, 200) + '...' }}
                       />
                       <div className="mt-6 flex-col items-left space-y-2">
                         {images !== null && authors.map((author, i) =>

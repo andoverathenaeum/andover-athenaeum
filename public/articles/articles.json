@@ -23,6 +23,17 @@
         "Nakul Iyer",
         "William Yue"
       ]
+    },
+    {
+      "slug": "student-feature-axel-ladd",
+      "title": "Student Feature: Axel Ladd",
+      "issue": "Spring 2021",
+      "section": "Features",
+      "source": "aladd",
+      "columns": 1,
+      "authors": [
+        "Nakul Iyer"
+      ]
     }
   ]
 }
