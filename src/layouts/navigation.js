@@ -7,7 +7,7 @@ export function Navigation({ children }) {
     <Fragment>
       <Header />
       <div
-        className="bg-gray-50 border-t border-gray-200 mt-24 pb-6"
+        className="bg-gray-50 mt-24 pb-6"
         style={{ minHeight: 'calc(100vh - 135px)'}}
       >{children}</div>
       <Footer />
