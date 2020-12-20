@@ -1,0 +1,12 @@
+<Section>Literary</Section>
+<Title>Lupa</Title>
+<Author>
+  <Name>Kelly Song</Name>
+  <Image>kellysong.png</Image>
+</Author>
+
+<Text>
+<Image width:600px>image1.jpg</Image>
+<big>Pencil on paper, 17” x 23”</big>
+<big>“This piece was inspired by the mythical founding of Rome. The subject is the she-wolf that was rumored to have nursed Romulus and Remus to adulthood.”</big>
+</Text>

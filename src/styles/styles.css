@@ -60,6 +60,11 @@
     color: #2A3759 !important;
 }
 
+.article img {
+    width: 200px;
+    margin: 10px;
+}
+
 .title {
     text-align: center;
     font-family: "UtopiaBH", "ITC Cheltenham Std", serif;

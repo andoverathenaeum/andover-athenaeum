@@ -7,39 +7,21 @@
       "issue": "Spring 2021",
       "section": "Introduction",
       "source": "EditorsLetter",
+      "columns": 2,
       "authors": [
-        "Jonathan Fu",
         "Jonathan Fu"
       ]
     },
     {
-      "slug": "editors-letter",
-      "title": "Editor's Letter",
-      "section": "Introduction",
-      "source": "EditorsLetter",
+      "slug": "pearson-hall",
+      "title": "Pearson Hall",
+      "issue": "Spring 2021",
+      "section": "Features",
+      "source": "pearson",
       "authors": [
         "Jonathan Fu",
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "editors-letter",
-      "title": "Editor's Letter",
-      "section": "Introduction",
-      "source": "EditorsLetter",
-      "authors": [
-        "Jonathan Fu",
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "editors-letter",
-      "title": "Editor's Letter",
-      "section": "Introduction",
-      "source": "EditorsLetter",
-      "authors": [
-        "Jonathan Fu",
-        "Jonathan Fu"
+        "Nakul Iyer",
+        "William Yue"
       ]
     }
   ]

@@ -16,7 +16,7 @@ export default function Latest() {
         const articlePromises = i[ 'articles' ].map(({ source }) => fetch(`/articles/sources/${source}/article.md`))
         Promise.all(articlePromises)
           .then(is => Promise.all(is.map(i => i.text())))
-          .then((i) => setPreviews(i.map((article) => (article.substring(0, 200) + '...'))))
+          .then((i) => setPreviews(i.map((article) => (article.substring(0, 200).replace(/[^a-z0-9]|\s+|\r?\n|\r/gmi, " ") + '...'))))
       })
   }
 
@@ -69,14 +69,14 @@ export default function Latest() {
                               <a href="#">
                                 <span className="sr-only">{author}</span>
                                 <img
-                                  className="h-10 w-10 rounded-full"
+                                  className="h-10 w-10 object-cover rounded-full"
                                   src={`/authors/${images[ author ] && images[ author ][ 'src' ]}`}
                                   alt=""
                                 />
                               </a>
                             </div>
                             <div className="ml-3">
-                              <p className="text-sm font-medium text-gray-900">
+                              <p className="utopia-light text-md font-medium text-gray-900">
                                 {author}
                               </p>
                             </div>
