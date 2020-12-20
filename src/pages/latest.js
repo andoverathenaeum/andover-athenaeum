@@ -1,6 +1,31 @@
-import React from 'react'
+import React, { Fragment, useState } from 'react'
+import Link from 'next/link'
 
 export default function Latest() {
+  const [issueTitle, setIssueTitle] = useState('')
+  const [articles, setArticles] = useState(null)
+  const [images, setImages] = useState(null)
+  const [previews, setPreviews] = useState(null)
+
+  if (articles === null) {
+    fetch('/articles/articles.json')
+      .then((i) => i.json())
+      .then(function (i) {
+        setIssueTitle(i[ 'issue' ])
+        setArticles(i[ 'articles' ])
+        const articlePromises = i[ 'articles' ].map(({ source }) => fetch(`/articles/sources/${source}/article.md`))
+        Promise.all(articlePromises)
+          .then(is => Promise.all(is.map(i => i.text())))
+          .then((i) => setPreviews(i.map((article) => (article.substring(0, 200) + '...'))))
+      })
+  }
+
+  if (images === null) {
+    fetch('/authors/authors.json')
+      .then((i) => i.json())
+      .then(setImages)
+  }
+
   return (
     <div className="pt-10 px-4 sm:px-6 lg:pt-16 lg:px-8">
       <div className="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
@@ -9,174 +34,61 @@ export default function Latest() {
             Latest Articles
           </h2>
           <p className="subtitle mt-3 text-xl text-gray-500 sm:mt-4">
-            Spring 2020 Issue
+            {issueTitle} Issue
           </p>
         </div>
-        <div className="mt-3 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-          <div>
-            <div>
-              <a
-                href="#"
-                className="inline-block"
+        <div className="mt-3 grid pt-12 lg:grid-cols-3">
+          {articles?.map(({ slug, title, section, authors }, i) =>
+            <div key={i}>
+              <Link
+                to={`/article/[id]`}
+                href={`/article/${slug}`}
               >
-            <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
-              Article
-            </span>
-              </a>
-            </div>
-            <a
-              href="#"
-              className="block mt-4"
-            >
-              <p className="text-xl font-semibold text-gray-900">
-                Boost your conversion rate
-              </p>
-              <p className="mt-3 text-base text-gray-500">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                volutpat massa dictumst amet. Sapien tortor lacus arcu.
-              </p>
-            </a>
-            <div className="mt-6 flex items-center">
-              <div className="flex-shrink-0">
-                <a href="#">
-                  <span className="sr-only">Paul York</span>
-                  <img
-                    className="h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="ml-3">
-                <p className="text-sm font-medium text-gray-900">
-                  <a href="#">
-                    Paul York
-                  </a>
-                </p>
-                <div className="flex space-x-1 text-sm text-gray-500">
-                  <time dateTime="2020-03-16">
-                    Mar 16, 2020
-                  </time>
-                  <span aria-hidden="true">
-                &middot;
-              </span>
-                  <span>
-                6 min read
-              </span>
+                <div className="transition-all cursor-pointer p-6 hover:bg-gray-100">
+                  <div>
+                  <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                    {section}
+                  </span>
+                  </div>
+                  <div className="block mt-4">
+                    <div>
+                      <p className="utopia text-xl text-gray-900">
+                        {title}
+                      </p>
+                      <p
+                        className="mercury mt-3 text-base text-gray-500"
+                        dangerouslySetInnerHTML={{ __html: previews !== null && previews[ i ] }}
+                      />
+                      <div className="mt-6 flex-col items-left space-y-2">
+                        {images !== null && authors.map((author, i) =>
+                          <div
+                            className="flex flex items-center"
+                            key={i}
+                          >
+                            <div className="flex-shrink-0">
+                              <a href="#">
+                                <span className="sr-only">{author}</span>
+                                <img
+                                  className="h-10 w-10 rounded-full"
+                                  src={`/authors/${images[ author ] && images[ author ][ 'src' ]}`}
+                                  alt=""
+                                />
+                              </a>
+                            </div>
+                            <div className="ml-3">
+                              <p className="text-sm font-medium text-gray-900">
+                                {author}
+                              </p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
-          </div>
-
-          <div>
-            <div>
-              <a
-                href="#"
-                className="inline-block"
-              >
-            <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
-              Video
-            </span>
-              </a>
-            </div>
-            <a
-              href="#"
-              className="block mt-4"
-            >
-              <p className="text-xl font-semibold text-gray-900">
-                How to use search engine optimization to drive sales
-              </p>
-              <p className="mt-3 text-base text-gray-500">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                volutpat massa dictumst amet. Sapien tortor lacus arcu.
-              </p>
-            </a>
-            <div className="mt-6 flex items-center">
-              <div className="flex-shrink-0">
-                <a href="#">
-                  <span className="sr-only">Dessie Ryan</span>
-                  <img
-                    className="h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="ml-3">
-                <p className="text-sm font-medium text-gray-900">
-                  <a href="#">
-                    Dessie Ryan
-                  </a>
-                </p>
-                <div className="flex space-x-1 text-sm text-gray-500">
-                  <time dateTime="2020-03-10">
-                    Mar 10, 2020
-                  </time>
-                  <span aria-hidden="true">
-                &middot;
-              </span>
-                  <span>
-                4 min read
-              </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <a
-                href="#"
-                className="inline-block"
-              >
-            <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              Case Study
-            </span>
-              </a>
-            </div>
-            <a
-              href="#"
-              className="block mt-4"
-            >
-              <p className="text-xl font-semibold text-gray-900">
-                Improve your customer experience
-              </p>
-              <p className="mt-3 text-base text-gray-500">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-                iure iusto fugiat commodi sequi.
-              </p>
-            </a>
-            <div className="mt-6 flex items-center">
-              <div className="flex-shrink-0">
-                <a href="#">
-                  <span className="sr-only">Easer Collins</span>
-                  <img
-                    className="h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="ml-3">
-                <p className="text-sm font-medium text-gray-900">
-                  <a href="#">
-                    Easer Collins
-                  </a>
-                </p>
-                <div className="flex space-x-1 text-sm text-gray-500">
-                  <time dateTime="2020-02-12">
-                    Feb 12, 2020
-                  </time>
-                  <span aria-hidden="true">
-                &middot;
-              </span>
-                  <span>
-                11 min read
-              </span>
-                </div>
-              </div>
-            </div>
-          </div>
+          )}
         </div>
       </div>
     </div>

@@ -20,6 +20,10 @@
     font-weight: bold;
 }
 
+.mercury {
+    font-family: "Mercury Text G1 Roman", serif;
+}
+
 .bottom-banner-li {
     list-style-type: none;
     vertical-align: middle;
@@ -28,8 +32,6 @@
 
 .article {
     font-family: "EBGaramond", serif;
-    font-size: 17px;
-    text-indent: 3ch;
     cursor: default;
     max-width: 100ch !important; /* tailwind override */
 }
@@ -37,6 +39,25 @@
 .article p {
     margin-top: 0 !important;
     margin-bottom: 15px !important;
+    font-size: 17px;
+    text-indent: 3ch;
+}
+
+.article h3 {
+    font-family: "Utopia", "ITC Cheltenham Std", serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #2A3759 !important;
+    text-align: center;
+}
+
+.article h4 {
+    font-family: "Utopia", "ITC Cheltenham Std", serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2A3759 !important;
 }
 
 .title {
@@ -46,6 +67,14 @@
     color: #2A3759 !important;
     cursor: default;
     margin: 0 !important;
+}
+
+.utopia-light {
+    font-family: "Utopia", "ITC Cheltenham Std", serif;
+}
+
+.utopia {
+    font-family: "UtopiaBH", "ITC Cheltenham Std", serif;
 }
 
 .subtitle {
