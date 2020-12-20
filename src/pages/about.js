@@ -3,7 +3,7 @@ import Markdown from '../components/markdown'
 
 export default function About() {
   return (
-    <div className="mt-6 mx-auto max-w-6xl">
+    <div className="pt-6 mx-auto max-w-6xl">
       <table className="w-full">
         <colgroup>
           <col

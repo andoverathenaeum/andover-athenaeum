@@ -7,7 +7,7 @@ export function Header() {
     <nav className="bg-white z-50 top-0 fixed w-screen border-b border-gray-200 ">
       <div className="max-w-4xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-24">
-          <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
+          <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
             <button
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-expanded="false"
@@ -47,7 +47,7 @@ export function Header() {
               </svg>
             </button>
           </div>
-          <div className="hidden md:block md:ml-6">
+          <div className="hidden lg:block lg:ml-6">
             <div className="roman flex space-x-5">
               <Link
                 to="/archives"
@@ -90,7 +90,7 @@ export function Header() {
               </Link>
             </div>
           </div>
-          <div className="block w-64 m-auto md:hidden">
+          <div className="block w-64 m-auto lg:hidden">
             <Link
               to="/"
               href="/"

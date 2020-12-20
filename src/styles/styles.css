@@ -48,6 +48,16 @@
     margin: 0 !important;
 }
 
+.subtitle {
+    text-align: center;
+    font-family: "ITC Cheltenham Std", serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 0;
+    cursor: default;
+    margin-bottom: 20px;
+}
+
 .author {
     text-align: center;
     font-family: "ITC Cheltenham Std", serif;
