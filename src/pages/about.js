@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, Fragment} from 'react'
 import Markdown from '../components/markdown'
 
 export default function About() {
@@ -6,10 +6,7 @@ export default function About() {
     if (images === null) {
         fetch('/authors/authors.json')
             .then((i) => i.json())
-            .then((o) => {
-                const { club, former, board } = o
-                setImages(Object.assign(club, former, board))
-            })
+            .then(setImages)
             .catch(console.log)
     }
 
@@ -56,7 +53,7 @@ export default function About() {
             <div className="mt-6 sm:mt-12">
                 <h1 className="mx-auto title">Meet the Board</h1>
                 <div className="flex-1 w-full">
-                    {images !== null && Object.keys(images).map((author, i) =>
+                    {images !== null && Object.keys(images['board']).map((author, i) =>
                         <div className="w-full flex m-6" key={i}>
                             <div
                                 className="flex flex-col items-center space-y-2 w-32"
@@ -65,7 +62,7 @@ export default function About() {
                                     <span className="sr-only">{author}</span>
                                     <img
                                         className="h-32 w-32 object-cover rounded-full transform hover:scale-105 transition-all"
-                                        src={`/authors/sources/${images[author] && images[author]['src']}`}
+                                        src={`/authors/sources/${images['board'][author] && images['board'][author]['src']}`}
                                         alt=""
                                     />
                                 </div>
@@ -75,11 +72,35 @@ export default function About() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="w-full prose article ml-10" style={{width: "100%"}} dangerouslySetInnerHTML={{__html: images[author]['bio'] }} />
+                            <div className="w-full prose article ml-10" style={{width: "100%"}}
+                                 dangerouslySetInnerHTML={{__html: images['board'][author] && images['board'][author]['bio']}}/>
                         </div>
                     )}
                 </div>
             </div>
+            <p className="prose article text-center" style={{maxWidth: "100% !important"}}><h2>Board applications will
+                be released to all club members who are Juniors, Lowers, or Uppers. Experience in the Latin or Greek
+                languages is preferred for most positions, but not required.</h2></p>
+            <table cellPadding="10" className="meet-board w-full title">
+                <tbody>
+                <tr>
+                    <th width="50%"><h2>Other Club Members</h2></th>
+                    <th width="50%"><h2>Former Club Members</h2></th>
+                </tr>
+                </tbody>
+            </table>
+            <table cellPadding="10" className="meet-board w-full text-center cinzel-md">
+                <tbody>
+                <tr>
+                    <td className="align-baseline">
+                        {images !== null && Object.keys(images['club']).map((author, i) => <h3 key={i}>{author}</h3>)}
+                    </td>
+                    <td className="align-baseline">
+                        {images !== null && Object.keys(images['former']).map((author, i) => <h3 key={i}>{author}</h3>)}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     )
 }

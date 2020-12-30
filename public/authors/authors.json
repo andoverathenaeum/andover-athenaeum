@@ -10,34 +10,64 @@
     },
     "William Yue": {
       "src": "williamyue.jpg",
-      "bio": ""
+      "bio": "<h2>Executive Editor</h2> William Yue is an 11th grader at Phillips Academy and is the Executive Editor and cofounder of the Andover Athenaeum. His passions are mathematics, physics, art, and writing for The Phillipian. In addition, he is an amateur but avid squash player and enjoys playing Tetris and card games such as Canadian Fish and Coup. He began learning Latin his 9th grade year and is also interested in Greek mythology and the history of Ancient Greece and Rome."
+    },
+    "Andrew Falcon": {
+      "src": "andrewfalcon.png",
+      "bio": "<h2>Digital Editor</h2> Andrew is a two-year upper from San Francisco, CA. On campus, he creates the website for Andover Athenaeum, plays for the varsity lacrosse team, is an associate for The Phillipian, and is a board member for the Finance and Investment Society as well as the Philanthropy and Investment Club."
     },
     "Esme Huh": {
-      "src": "esmehuh.png"
+      "src": "esmehuh.png",
+      "bio": "<h2>Layout Designer / Editor</h2> Esme is a two-year upper from Birmingham, AL. Upon entering Andover, she was placed into Latin 300, and despite her doubt, she was very successful. She quickly fell in love with Pearson and the entire classics department. She hoped to expand her love for classics into extracurricular activities as well. When Andover Athenaeum needed a layout editor, she jumped at the chance. On campus, Esme plays soccer in the Fall, and she runs track during the Winter and Spring. Between many sports, she is also one of the founding board members of MCMP (Mixed Community Mentorship Program)."
+    },
+    "Nina Cushman": {
+      "src": "ninac.png",
+      "bio": "<h2>Layout Designer / Editor</h2> Nina is a four-year senior from New York City. She began to take Latin in 6th grade and has deepened her appreciation and love for the language over her three years at Andover."
     },
     "Adrian Lin": {
-      "src": "adrian.png"
-    },
-    "Kelly Song": {
-      "src": "kellysong.png"
+      "src": "adrian.png",
+      "bio": "<h2>Literary Editor</h2> Adrian is an upper from Andover, MA. Having started in Latin 100 in his freshman year, he has acquired a growing interest in the Latin language and Roman culture, with a particular fascination with modern classicists and their distinctive perspectives on the ancient Greeks and Romans. He is captivated by the natural sciences and applies such interest to the Classics by exploring the ancient world’s pioneering discoveries in their tireless pursuit of under- standing the natural world. On campus, he plays oboe in the Academy Orchestras, Band, and Chamber Music Society. He is also fond of nature and the outdoors and plays ice hockey in the Winter as well as ultimate frisbee in the Spring."
     },
     "Arnav Bhakta": {
-      "src": "arnav.png"
+      "src": "arnav.png",
+      "bio": "<h2>Copy Editor</h2> Arnav Bhakta is an 11th grader at Phillips Academy, serving as the copy editor for the Andover Athenaeum. He has a high interest in computer science and biomedical engineering and enjoys programming in his free time. Along with this, he is an amateur squash player but also wrestles during the winter. He started learning about classics and Latin in middle school, getting interested in the subject through Greek mythology and books such as Percy Jackson and The Heroes of Olympus."
     },
     "Jake Zummo": {
-      "src": "jakez.png"
+      "src": "jakez.png",
+      "bio": "<h2>News/Feature Editor</h2> Jake Zummo ‘21 is a boarder at Andover from Old Greenwich, CT, who lives in E.H. Stuart House on campus. He is the current co-head of the Classics Club on campus and the editor for the news and features articles for the Athenaeum. Often referred to by “Zummo” colloquially, Jake enjoys reading novels, playing the guitar, and training his skills on League of Legends in his free time. He has been taking Latin since sixth grade and has since become fascinated in the fictional and historical characters of antiquity. One of his favorite works to read and translate is the Satyricon for its hilarious satire. A fun fact about Jake is that he once dressed as Mr. Met for Halloween."
     },
     "Aaron Chung": {
-      "src": "achung.png"
+      "src": "achung.png",
+      "bio": "<h2>News/Feature Editor</h2> Aaron Chung ‘22 is a boarder at Andover from Seoul, South Korea, who lives in Bartlet Hall on campus. He has pursued the study of Latin since 5th grade. Deciding to study Ancient Greek at the start of his freshman year as well, Aaron has a profound interest in translating the works of Caesar and the epic meter of Homer. Aaron is a current upper board member of the Classics club on campus, the youngest member of the Jungam Academy for Greco-Roman Studies back in South Korea, and has also attended the Paideia Institute over the summer. Besides his interest in classical studies, Aaron enjoys playing lacrosse during his free time. Please reach out to jchung22@andover.edu for further questions and discussions on Petrarch!"
     }
   },
   "club": {
-
+    "Natalia Loumidis '21": {},
+    "Jason Huang '21": {},
+    "Nikola Muromcew '21": {},
+    "Sarah Chen '21": {},
+    "Claire Song '22": {},
+    "Quinn Novick '22": {},
+    "Julian Dahl '22": {},
+    "Hannah Dastgheib '22": {},
+    "Lyla Guthrie '23": {},
+    "Olympia Glover '24": {},
+    "Ashley Agyeman '24": {},
+    "Eleanor Tong '24": {}
   },
   "former": {
     "Nakul Iyer": {
       "src": "nakuliyer.png",
       "bio": ""
-    }
+    },
+    "Kelly Song": {
+      "src": "kellysong.png"
+    },
+    "Axel Ladd '20": {},
+    "Alexandra Lebaron '20": {},
+    "Gigi Glover '20": {},
+    "Brandon Chandler '20": {},
+    "Irura Nyiha '20": {},
+    "Andy Zeng '20": {}
   }
 }
