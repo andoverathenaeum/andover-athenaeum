@@ -67,6 +67,17 @@
       "authors": [
         "Esme Huh"
       ]
+    },
+    {
+      "slug": "teacher-feature-mrs-carter",
+      "title": "Teacher Feature: Mrs. Carter",
+      "issue": "Spring 2020",
+      "section": "Feature",
+      "source": "carter",
+      "columns": 1,
+      "authors": [
+        "Adrian Lin"
+      ]
     }
   ]
 }
