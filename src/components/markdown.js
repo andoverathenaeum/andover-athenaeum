@@ -10,6 +10,8 @@ export default function Markdown({ src, columns=1 }) {
     height: undefined,
   });
 
+  const srcDir = src.substring(0, src.lastIndexOf('/'))
+
   useEffect(() => {
     // Handler to call on window resize
     function handleResize() {
@@ -32,8 +34,24 @@ export default function Markdown({ src, columns=1 }) {
 
   fetch(src)
     .then((i) => i.text())
-    .then((i) => setMd(rmk.render(i)))
+    .then((i) => setMd(rmk.render(i
+        .replace(/<flex>/g, '<div style="display: flex;">') /* this is for some stupid ass backwards compat from athenaeum v1 and can be ignored */
+        .replace(/<\/flex>/g, '</div>')
+        .replace(/<c>/g, '<center>')
+        .replace(/<\/c>/g, '</center>')
+        .replace(/<big>/g, '<h3>')
+        .replace(/<\/big>/g, '</h3>')
+        .replace(/<h>/g, '<h2>')
+        .replace(/<\/h>/g, '</h2>')
+        // .replace(/<b>/g, '<h4>')
+        // .replace(/<\/b>/g, '</h4>')
+        .replace(/<Image>(.*?)<\/Image>/g, `<img src="${srcDir}/$1"  alt="$1"/>`)
+        .replace(/<Image width:(.*?)>(.*?)<\/Image>/g, `<img src="${srcDir}/$2"  alt="$2" style="width: $1;"/>`)
+        .replace(/<Image float:(.*?)>(.*?)<\/Image>/g, `<img src="${srcDir}/$2"  alt="$2" style="float: $1;"/>`)
+    )))
     .catch(console.log)
+
+  console.log(md)
 
   let columnCount = columns
   if (windowSize?.width <= 768) {

@@ -37,7 +37,7 @@ export default function Article({}) {
           {articleMeta !== null && articleMeta[ 'section' ]}
         </span>
         <h2 className="pt-3 title text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-          Latest Articles
+          {articleMeta !== null && articleMeta[ 'title' ]}
         </h2>
         <p className="subtitle mt-3 text-xl text-gray-500 sm:mt-4">
           {articleMeta !== null && articleMeta[ 'issue' ]} Issue

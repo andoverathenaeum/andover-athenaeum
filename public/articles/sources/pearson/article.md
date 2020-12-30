@@ -4,7 +4,7 @@ Pearson Hall, with its distinctive cupola, metal railings, and four white doors,
 
 With a long and varied history from the place where Oliver Wendall Holmes Sr. translated the entirety of Vergil’s Aeneid in his freshman year or where George H.W Bush may have practiced riflery, Pearson Hall has remained largely the same even as the campus around it has undergone a gradual transformation. Pearson Hall is special; the sturdy oak benches of Pearson A & G, the busts scattered throughout the building (and underneath…), the faded artwork high above, and more, all come together to form the storied home of the Classics at Phillips Academy.
 
-#### History of Pearson Hall
+<h4>History of Pearson Hall</h4>
 
 <img src="/articles/sources/pearson/image1.png" style="float: right; margin: 30px; width: 100px;"  alt="" />
 

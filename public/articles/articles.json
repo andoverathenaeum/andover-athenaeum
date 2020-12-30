@@ -1,10 +1,10 @@
 {
-  "issue": "Spring 2021",
+  "issue": "Spring 2020",
   "articles": [
     {
       "slug": "editors-letter",
       "title": "Editor's Letter",
-      "issue": "Spring 2021",
+      "issue": "Spring 2020",
       "section": "Introduction",
       "source": "EditorsLetter",
       "columns": 2,
@@ -15,8 +15,8 @@
     {
       "slug": "pearson-hall",
       "title": "Pearson Hall",
-      "issue": "Spring 2021",
-      "section": "Features",
+      "issue": "Spring 2020",
+      "section": "Feature",
       "source": "pearson",
       "authors": [
         "Jonathan Fu",
@@ -27,12 +27,45 @@
     {
       "slug": "student-feature-axel-ladd",
       "title": "Student Feature: Axel Ladd",
-      "issue": "Spring 2021",
-      "section": "Features",
+      "issue": "Spring 2020",
+      "section": "Feature",
       "source": "aladd",
       "columns": 1,
       "authors": [
         "Nakul Iyer"
+      ]
+    },
+    {
+      "slug": "alumni-feature-brian-ko",
+      "title": "Alumni Feature: Brian Ko '19",
+      "issue": "Spring 2020",
+      "section": "Feature",
+      "source": "bko",
+      "columns": 1,
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "alpheios",
+      "title": "Alpheios",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "Alpheios",
+      "columns": 1,
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "latin-isnt-dead-yet",
+      "title": "Latin Isn't Dead Yet",
+      "issue": "Spring 2020",
+      "section": "News",
+      "source": "latindead",
+      "columns": 1,
+      "authors": [
+        "Esme Huh"
       ]
     }
   ]

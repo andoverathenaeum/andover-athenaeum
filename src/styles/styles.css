@@ -47,14 +47,27 @@
     text-indent: 3ch;
 }
 
+.article h2 {
+    font-family: "Utopia", "ITC Cheltenham Std", serif;
+    text-indent: 3ch;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 .article h3 {
     font-family: "Utopia", "ITC Cheltenham Std", serif;
     font-weight: bold;
     font-size: 24px;
-    margin-top: 15px;
-    margin-bottom: 20px;
     color: #2A3759 !important;
     text-align: center;
+    width: 60%;
+    margin: 15px auto 20px;
+    /*background-color: rgba(0, 0, 0, 0.02);*/
+}
+
+.article h3 b {
+    color: #CE5A49 !important;
 }
 
 .article h4 {

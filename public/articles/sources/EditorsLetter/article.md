@@ -5,8 +5,9 @@
 We decided to name our magazine <em>Andover Athenaeum</em> (pronounced Athen-EE-um), a name that rolls surprisingly well off the tongue and has its roots in Ancient Rome itself! The Emperor Hadrian founded a school dedicated towards literary and scientific studies in Rome named <em>The Athenaeum</em> (from the Greek city-state of Athens). In recent centuries, <em>Athenaeum</em> has been commonly used in the names of periodicals and literary magazines. perfect representation of the mission and idea of <em>Andover Athenaeum</em>.
 
 <h3>
-<em>Athenaeum</em> has two pronunciations!
-<br/>Anglicized: Athen-EE-um
+<b><em>Athenaeum</em> has two pronunciations!</b>
+
+Anglicized: Athen-EE-um
 <br/>Traditional: Athen-AYE -um
 </h3>
 

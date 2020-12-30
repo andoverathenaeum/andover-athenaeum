@@ -1,6 +1,6 @@
-<center><img src="/articles/sources/aladd/aladd.jpg"  alt="" /></center>
+<center><figure><img src="/articles/sources/aladd/aladd.jpg"  alt="" /><figcaption>Axel Ladd '20</figcaption></figure></center>
 
-#### Axel Ladd ‘20 is a three year senior from Riverside, CT, currently living in Stearns House on campus. He has taken both Latin and Greek classes, and is the co-president of our school’s classics club. We had the chance to interview him to learn more about his interest in the Classics, his experiences at Phillips Academy, and what he plans to do in the future, and here’s what he has to say.
+<h2>Axel Ladd ‘20 is a three year senior from Riverside, CT, currently living in Stearns House on campus. He has taken both Latin and Greek classes, and is the co-president of our school’s classics club. We had the chance to interview him to learn more about his interest in the Classics, his experiences at Phillips Academy, and what he plans to do in the future, and here’s what he has to say.</h2>
 
 <h4>
 After going through Phillips Academy’s Classics program, what did you love and what do you want to change?
@@ -32,14 +32,15 @@ If you could point to a passage of Latin and/or Greek that moved you, what would
 "Semper ubi sub ubi"
 </em>
 <br/>Translation: Always where under where
-
 <em>
 "Tempus fugit cum ludum habes"
 </em>
 <br/>Translation: Time flies when you are having fun
-
+</h3>
+<h3>
 <b>A Favorite Classical Figure:</b>
-<br/>"My favorite figure as of now is Catullus because he always provides an amusing read."
+
+"My favorite figure as of now is Catullus because he always provides an amusing read."
 </h3>
 
 <h4>

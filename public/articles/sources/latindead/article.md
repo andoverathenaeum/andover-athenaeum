@@ -1,10 +1,3 @@
-<Section>News</Section>
-<Title>Latin Isn’t Dead Yet</Title>
-<Author>
-	<Name>Esme Huh</Name>
-  <Image>esmehuh.png</Image>
-</Author>
-<Text>
 <Image float:right>latin_web-thumb-large.jpg</Image>
 “There's no such thing as dead languages, only dormant minds,” and soon all minds may be dormant of Latin, proclaims Spanish novelist Carlos Ruiz Zafon. Based on an educational study, at the turn of the 20th century, 50% of the student population in the United States took Latin, but now in the 21st century, less than 2% of students take Latin.
 
@@ -31,47 +24,37 @@ Latin has faced a decline in accessibility before; Latin was saved the first tim
 Latin is a base for American law, and it is the foundation of our government. The origin and developmental history of Latin is rich, and it is important in European and American history. Furthermore, classical art and technology are revered in current creation today, and medicine and science use Latin to organize and classify. Our society revolves around the Latin language; in order for our government, art, history, science, and medicine to reach its fullest potential, the understanding of Latin is essential.
 
 In recent decades, Latin has become unsustainable. We must change the teaching methods and curriculum of Latin to be more inclusive of all kinds of students despite socioeconomic class, measured intelligence, or race. The difference between Latin being a thriving world language or a forgotten dead language, lies in the students of the language.
-<flex>
+<center style="display: flex; justify-content: center">
 <Image>gladiatrices.jpg</Image>
 <Image>latin_2.jpg.gallery.jpg</Image>
-</flex>
+</center>
 
-<c><big>Bibliography</big></c>
-Bauerle, Ellen. "There Is a Shortage of Certified Latin Teachers: Please Spread the Word!"
-Society for Classical Studies. Last modified August 8, 2015. Accessed March 15, 2020. https://classicalstudies.org/amphora/there-shortage-certified-latin-teachers-please-spread- word-0.
+<h4>Bibliography</h4>
 
-Bracey, John. "Why Students of Color Don't Take Latin." Eidolon. Last modified October 12,
-2017. Accessed March 15, 2020. https://eidolon.pub/why-students-of-color-dont-take-latin-4ddee3144934.
+Bauerle, Ellen. "There Is a Shortage of Certified Latin Teachers: Please Spread the Word!" Society for Classical Studies. Last modified August 8, 2015. Accessed March 15, 2020. https://classicalstudies.org/amphora/there-shortage-certified-latin-teachers-please-spread-word-0.
+
+Bracey, John. "Why Students of Color Don't Take Latin." Eidolon. Last modified October 12, 2017. Accessed March 15, 2020. https://eidolon.pub/why-students-of-color-dont-take-latin-4ddee3144934.
 
 Brentyn. "How Is Learning Latin in School?" superprof. Last modified July 6, 2018. Accessed
 March 15, 2020. https://www.superprof.co.uk/blog/classical-latin-taught-in-schools/.
 
-Caplan, Bryan. "The Case against Latin." EconLog. Accessed March 15, 2020.
-https://www.econlib.org/archives/2011/01/the_case_agains_5.html.
+Caplan, Bryan. "The Case against Latin." EconLog. Accessed March 15, 2020. https://www.econlib.org/archives/2011/01/the_case_agains_5.html.
 
-Gill, N. S. "Is Latin Easy to Learn?" ThoughtCo. Last modified September 3, 2019. Accessed
-March 15, 2020. https://www.thoughtco.com/is-latin-easy-119456.
+Gill, N. S. "Is Latin Easy to Learn?" ThoughtCo. Last modified September 3, 2019. Accessed March 15, 2020. https://www.thoughtco.com/is-latin-easy-119456.
 
-Howe, Daniel Walker. "Classical Education in America." The Wilson Quarterly 35, no. 2 (Spring
-2011): 31-36. https://www.jstor.org/stable/41484250.
+Howe, Daniel Walker. "Classical Education in America." The Wilson Quarterly 35, no. 2 (Spring 2011): 31-36. https://www.jstor.org/stable/41484250.
 
-Kitchell, Kenneth K., Jr. "Teaching of Latin in Schools." Stateuniversity. Accessed March 15,
-2020. https://education.stateuniversity.com/pages/2160/Latin-in-Schools-Teaching.html.
+Kitchell, Kenneth K., Jr. "Teaching of Latin in Schools." Stateuniversity. Accessed March 15, 2020. https://education.stateuniversity.com/pages/2160/Latin-in-Schools-Teaching.html.
 
-Lowe, Cheryl. "Top 10 Reasons for Studying Latin." Memoria Press. Last modified May 1, 2012.
-Accessed March 15, 2020. https://www.memoriapress.com/articles/top-10-reasons-studying-latin/.
+Lowe, Cheryl. "Top 10 Reasons for Studying Latin." Memoria Press. Last modified May 1, 2012. Accessed March 15, 2020. https://www.memoriapress.com/articles/top-10-reasons-studying-latin/.
 
-Mahnken, Kevin. "50 Years after Latin Disappeared from High School Classrooms, These
-Educators Are Bringing It Back." the74. Last modified December 6, 2017. Accessed March 15, 2020. https://www.the74million.org/article/50-years-after-latin-disappeared-from-high-school-c lassrooms-these-educators-are-bringing-it-back/.
+Mahnken, Kevin. "50 Years after Latin Disappeared from High School Classrooms, These Educators Are Bringing It Back." the74. Last modified December 6, 2017. Accessed March 15, 2020. https://www.the74million.org/article/50-years-after-latin-disappeared-from-high-school-c lassrooms-these-educators-are-bringing-it-back/.
 
-O'Hogan, Cillian. "The Latin Middle Ages." British Library. Accessed March 15, 2020.
-https://www.bl.uk/medieval-english-french-manuscripts/articles/the-latin-middle-ages.
+O'Hogan, Cillian. "The Latin Middle Ages." British Library. Accessed March 15, 2020. https://www.bl.uk/medieval-english-french-manuscripts/articles/the-latin-middle-ages.
 
-Young, Toby. "Forget Mandarin. Latin Is the Key to Success." The Spectator. Last modified
-February 2, 2011. Accessed March 15, 2020. https://www.spectator.co.uk/article/forget-mandarin-latin-is-the-key-to-success.
+Young, Toby. "Forget Mandarin. Latin Is the Key to Success." The Spectator. Last modified February 2, 2011. Accessed March 15, 2020. https://www.spectator.co.uk/article/forget-mandarin-latin-is-the-key-to-success.
 
-Image Sources:
-• <a href="https://www.thisislocallondon.co.uk/youngreporter/15182204.latin-a-dead-language-by-anya-shah-bancrofts-school/">https://www.thisislocallondon.co.uk/youngreporter/15182204.latin-a-dead-language-by-anya-shah-bancrofts-school/</a>
-• <a href="https://www.ekathimerini.com/232297/article/ekathimerini/news/anger-over-scrapping-of-latin-classes">https://www.ekathimerini.com/232297/article/ekathimerini/news/anger-over-scrapping-of-latin-classes</a>
-• <a href="https://listverse.com/2008/05/05/top-10-myths-about-the-romans/">https://listverse.com/2008/05/05/top-10-myths-about-the-romans/</a>
-</Text>
+<h4>Image Sources</h4>
+* <a href="https://www.thisislocallondon.co.uk/youngreporter/15182204.latin-a-dead-language-by-anya-shah-bancrofts-school/">https://www.thisislocallondon.co.uk/youngreporter/15182204.latin-a-dead-language-by-anya-shah-bancrofts-school/</a>
+* <a href="https://www.ekathimerini.com/232297/article/ekathimerini/news/anger-over-scrapping-of-latin-classes">https://www.ekathimerini.com/232297/article/ekathimerini/news/anger-over-scrapping-of-latin-classes</a>
+* <a href="https://listverse.com/2008/05/05/top-10-myths-about-the-romans/">https://listverse.com/2008/05/05/top-10-myths-about-the-romans/</a>
