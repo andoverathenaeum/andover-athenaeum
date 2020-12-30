@@ -212,6 +212,47 @@
       "authors": [
         "Arnav Bhakta"
       ]
+    },
+    {
+      "slug": "digital-feature-spqr-and-ancient-greek-apps",
+      "title": "Digital Feature: SPQR and Ancient Greek Apps",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "SPQRAncientGreekApps",
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "petrarch-and-his-revival-of-classical-culture",
+      "title": "Petrarch and His Revival of Classical Culture",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "petrarch",
+      "authors": [
+        "Aaron Chung"
+      ]
+    },
+    {
+      "slug": "plagues-in-antiquity",
+      "title": "Plagues in Antiquity",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "plagues",
+      "authors": [
+        "Jake Zummo"
+      ]
+    },
+    {
+      "slug": "mary-beards-spqr-explores-what-it-means-to-find-rome",
+      "title": "Mary Beard’s SPQR Explores What It Means to Find Rome",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "SPQRBookReview",
+      "columns": 2,
+      "authors": [
+        "Jake Zummo"
+      ]
     }
   ]
 }

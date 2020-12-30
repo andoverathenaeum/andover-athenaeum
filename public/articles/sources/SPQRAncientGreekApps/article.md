@@ -1,11 +1,3 @@
-<Section>Literary</Section>
-<Title>Digital Feature: SPQR and Ancient Greek Apps</Title>
-<Author>
-<Name>Jonathan Fu</Name>
-<Image>jonathanfu.png</Image>
-</Author>
-
-<Text>
 <c><big>SPQR</big></c>
 <Image float:right>SPQR.png</Image>
 Any Classics student knows that their most handy tool in translation is a vast vocabulary. However, inexplicably, no matter how many Quizlet sets and vocabulary quizzes are taken, there always seems to be some words that escape our memory. In those moments, a powerful and precise dictionary is our best friend. There are countless Latin and Ancient Greek dictionaries and translators popping up on the web, and a modest amount of thick print dictionaries, but only a select few are worth using at all.
@@ -38,4 +30,3 @@ This was only a brief introduction to these amazing apps, but if you would like 
 </h>
 
 SPQR and Ancient Greek are available in the App Store and in the Google Play Store.
-</Text>

@@ -1,12 +1,5 @@
-<Section>Literary</Section>
-<Title>Petrarch and His Revivial of Classical Culture</Title>
-<Author>
-<Name>Aaron Chung</Name>
-<Image>achung.png</Image>
-</Author>
+<c><figure><Image>Petrarch-engraving.jpg</Image><figcaption>A historic sketch of Petrarch</figcaption></figure></c>
 
-<Text>
-<Image float:right>Petrarch-engraving.jpg<Caption>A historic sketch of Petrarch</Caption></Image>
 Francis Petrarch was a prominent Italian scholar of the fourteenth century, who served as a bridge between the medieval era and the Renaissance. Born 1304 AD into a family of lawyers, Pertrarch’s early years of high-quality education gradually led to an exceptionally bright and inquiring mind as well as an unconventional love of classical authors. Such interests brought about his desire to search and transcribe forgotten ancient texts during his early adulthood, many of which were thoroughly analyzed and incorporated into his own writings. Constantly throwing himself into controversies against the “barbaric influence” of the Middle Ages, Petrarch additionally criticized the conservative teaching methods of the traditional universities and schools. Overall, Petrarch’s literary works and discoveries of classical texts were revolutionary to the medieval intellectual community, as such academic accomplishments prompted systemic changes to the classical education system.
 
 Petrarch’s extensive collection of ancient Roman texts replaced non-orthodox medieval Latin instructions with original ancient writings, which influenced the traditional academic institution’s method of teaching Latin. During his early adulthood, Petrarch’s curiosity about the values and eloquence of classical figures took him to France, Flanders, Rhineland, and Brabant from 1333 to 1345 AD., where he visited monasteries in search of available ancient Roman manuscripts. Petrarch then stored the texts in Cardinal Colonna’s library at Avignon, which he generously shared with Boccaccio, the Medici family, and the general public after his death. Such abundant discoveries and increased spread of ancient Roman texts contrasted with the abrupt decline in the popularity of medieval Latin grammar textbooks, as the Black Death eradicated most authoritative Latin scholars of the era. Since major schools, including the University of Florence, also suffered from a lack of qualified instructors who could teach the content of the few remaining textbooks to young scholars, the leaders of institutions were forced to utilize Petrarch’s discoveries of Livy’s Ab Urbe Condita, Cicero’s Familiares, and Quintilian’s Institutio Oratoria. Thus, students of late-fourteenth century Europe mastered Latin through constant imitation, composition, and examination of original Roman writings, which was a significant improvement from the single-sided, syntax-based curriculum of the medieval era. Such an increased exposure to antique literature not only cast light on philosophies and writings that were forgotten for centuries, but also saved the study of the Latin language from extinction after the deadly plague.
@@ -19,6 +12,7 @@ In short, Petrarch’s innovative changes to the curriculum of the academic inst
 
 
 <c><big>Bibliography</big></c>
+
 Bejczy, István. "The State as a Work of Art: Petrarch and His Speculum Principis (SEN. XIV, 1)." History of Political Thought 15, no. 3 (Fall 1994): 313-21. https://www.jstor.org/stable/26214372.
 
 "Humanism." In Britannica Academic. https://academic.eb.com/levels/collegiate/article/humanism/106290.
@@ -35,6 +29,5 @@ Rumsey, Thomas R. "Petrarch and the Birth of Renaissance Humanism." In Men and W
 
 Stephens, John. "Petrarch and His Successors." In The Italian Renaissance: The Origins of Intellectual and Artistic Change before the Reformation, 37-57. London: Longman, 1990.
 
-Image Sources:
-<a href="https://www.britannica.com/biography/Petrarch">https://www.britannica.com/biography/Petrarch</a>
-</Text>
+<h4>Image Sources:</h4>
+* <a href="https://www.britannica.com/biography/Petrarch">https://www.britannica.com/biography/Petrarch</a>
