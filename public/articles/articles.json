@@ -78,6 +78,58 @@
       "authors": [
         "Adrian Lin"
       ]
+    },
+    {
+      "slug": "books-to-start-learning-classics",
+      "title": "Books to Start Learning Classics",
+      "issue": "Spring 2020",
+      "section": "Feature",
+      "source": "BooksToStartLearning",
+      "columns": 1,
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "classics-classes",
+      "title": "Classics Classes",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "ClassicsClasses",
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "classics-club",
+      "title": "Classics Club",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "ClassicsClub",
+      "columns": 2,
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "classics-crossword",
+      "title": "Classics Crossword",
+      "issue": "Spring 2020",
+      "section": "Classics Fun",
+      "source": "cw",
+      "authors": [
+        "Adrian Lin"
+      ]
+    },
+    {
+      "slug": "pythagoras",
+      "title": "Pythagoras",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "yue",
+      "authors": [
+        "William Yue"
+      ]
     }
   ]
 }

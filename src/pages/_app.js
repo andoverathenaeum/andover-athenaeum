@@ -1,7 +1,7 @@
 import '../styles/globals.css'
-import { DefaultSeo } from 'next-seo'
-import { Navigation } from '../layouts/navigation'
-import React, { Fragment } from 'react'
+import {DefaultSeo} from 'next-seo'
+import {Navigation} from '../layouts/navigation'
+import React, {Fragment} from 'react'
 
 const DEFAULT_SEO_CONFIG = {
     title: 'Andover Athenaeum',
@@ -20,7 +20,7 @@ const DEFAULT_SEO_CONFIG = {
         }
 }
 
-function MyApp({ Component, pageProps }) {
+function MyApp({Component, pageProps}) {
     return (
         <Fragment>
             <DefaultSeo {...DEFAULT_SEO_CONFIG} />
