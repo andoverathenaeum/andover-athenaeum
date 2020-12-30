@@ -49,7 +49,7 @@ export default function Latest() {
                         {issueTitle} Issue
                     </p>
                 </div>
-                <div className="mt-3 grid pt-12 lg:grid-cols-3">
+                <div className="mt-3 grid pt-12 lg:grid-cols-5">
                     {articles?.map(({slug, title, section, authors}, i) =>
                             <div key={i}>
                                 <Link
@@ -71,10 +71,10 @@ export default function Latest() {
                                                 <p className="utopia text-xl text-gray-900">
                                                     {title}
                                                 </p>
-                                                <p
+                                                {/*<p
                                                     className="mercury mt-3 text-base text-gray-500"
                                                     dangerouslySetInnerHTML={{__html: previews !== null && previews[i].substring(0, 200) + '...'}}
-                                                />
+                                                />*/}
                                                 <div className="mt-6 flex-col items-left space-y-2">
                                                     {images !== null && authors.map((author, i) =>
                                                         <div

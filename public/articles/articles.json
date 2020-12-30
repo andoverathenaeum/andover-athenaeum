@@ -122,6 +122,16 @@
       ]
     },
     {
+      "slug": "did-you-know",
+      "title": "Did You Know?",
+      "issue": "Spring 2020",
+      "section": "Classics Fun",
+      "source": "funfacts",
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
       "slug": "pythagoras",
       "title": "Pythagoras",
       "issue": "Spring 2020",
@@ -129,6 +139,78 @@
       "source": "yue",
       "authors": [
         "William Yue"
+      ]
+    },
+    {
+      "slug": "duolingo-latin",
+      "title": "Duolingo Latin",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "DuolingoLatin",
+      "columns": 2,
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "learn-classics-reading-books-and-media",
+      "title": "Learn Classics: Reading, Books, and Media",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "FeaturedReadings",
+      "columns": 2,
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
+      "slug": "lupa",
+      "title": "Lupa",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "lupa",
+      "authors": [
+        "Kelly Song"
+      ]
+    },
+    {
+      "slug": "classics-phrases-and-idioms",
+      "title": "Classics Phrases and Idioms",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "idioms",
+      "authors": [
+        "Adrian Lin"
+      ]
+    },
+    {
+      "slug": "jonathan-shay",
+      "title": "Jonathan Shay",
+      "issue": "Spring 2020",
+      "section": "News",
+      "source": "jonathanshay",
+      "authors": [
+        "Adrian Lin"
+      ]
+    },
+    {
+      "slug": "mary-beard",
+      "title": "Mary Beard",
+      "issue": "Spring 2020",
+      "section": "News",
+      "source": "mbeard",
+      "authors": [
+        "Adrian Lin"
+      ]
+    },
+    {
+      "slug": "wrestling-in-ancient-rome-and-greece",
+      "title": "Wrestling in Ancient Rome and Greece",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "wrestling",
+      "authors": [
+        "Arnav Bhakta"
       ]
     }
   ]

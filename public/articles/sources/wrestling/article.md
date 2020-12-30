@@ -1,12 +1,4 @@
-<Section>Literary</Section>
-<Title>Wrestling in Ancient Rome and Greece</Title>
-<Author>
-<Name>Arnav Bhakta</Name>
-<Image>arnav.png</Image>
-</Author>
-
-<Text>
-<Image float:right>blackfig.png<Caption>Wrestling depicted on <br/> Black-Figure Amphora Vase</Caption></Image>
+<c><figure><Image>blackfig.png</Image><figcaption>Wrestling depicted on <br/> Black-Figure Amphora Vase</figcaption></figure></c>
 Wrestling has played an important part in shaping ancient Greeks’ and Romans’ cultures. The ancient wrestling form of Greco-Roman originated from the ancient Greeks, dating so far back that it is considered to be the oldest competitive sport today. At first, wrestling was invented as a way to help ancient Greek soldiers train for combat, but it was soon adapted to an actual sport due to the benefits that the Greeks found in it. When the Romans conquered the Greek in 146 BC, in fear of losing the sport, the Greeks named the sport Greco-Roman and added it as one of the many sports for athletes to compete in during the Olympics.
 
 However, the Romans did not get rid of wrestling but rather, they embraced it. In popular leisure areas of ancient Rome, such as the Campus Martius, the area including the Pantheon and the Largo di Torre Argentina (a square with the remains of Pompey’s theater and four temples), the youth of Rome participated in many sports and activities, one of which was wrestling. Furthermore, Romans found much interest in wrestling, often practicing it in the palaestra or the central field of the Roman baths. They believed that wrestling could help them improve their fitness and physical attributes such as their strength and stamina. As a result, the enjoyment that Romans found in the sport shaped it into a centerpiece of Roman society and culture.
@@ -14,10 +6,9 @@ However, the Romans did not get rid of wrestling but rather, they embraced it. I
 Wrestling became such an integral part of the culture of both Rome and Greece that it often found its place in many structural works of art. Notably, wrestling was often depicted on vases in the form of an attic black-figure amphora vase as well as on funerary reliefs.
 
 Additionally, wrestling has also been an important part of ancient literature. The great Greek poets, Homer and Pindar, often described wrestling in their piecesIn fact, wrestling was such an important part of Roman and Greek literary work, that in his defeat of his father Cronus, Zeus, the ruler of the Earth and the Heavens, is supposed to have wrestled and killed his father. Furthermore, in the famous story of Odysseus, Odysseus is depicted wrestling Aias, a mythological prince, in the Trojan war. This theme of wrestling stretches throughout all of Greek and Roman mythology, featured in multiple tales. Wrestling between man and beast also became an integral part of both Greek and Roman mythology, depicted in famous tales such as Heracles and Theseus.
-<Image float:right width:300px>funerary.png<Caption>Wrestling depicted on Funerary Reliefs</Caption></Image>
+<c><figure><Image width:300px>funerary.png</Image><figcaption>Wrestling depicted on Funerary Reliefs</figcaption></figure></c>
 Initially, the equipment used in wrestling consisted merely of skin-tight shorts. But, soon this was changed to people wrestling naked. In today’s world, wrestlers are required to wear a singlet, a sleeveless garment that acts as a uniform. Wrestlers also have the choice to wear protective headgear, which helps protect against a common wrestling injury known as cauliflower ear.
 
 In addition to wrestling equipment, different styles of wrestling have also changed over time. In the Greco-Roman style that both the Romans and Greeks partook in, the rules stated that one had to take down their opponent without touching their legs. This entailed a style of wrestling that consisted mostly of throws such as headlocks and suplexes. Additionally, in this style, points were awarded solely based on back exposure. For a takedown, one would receive 2 points, but for a big throw, they could potentially receive 4 points. However, as time progressed, other forms of wrestling emerged. In Europe, a style known as freestyle was developed. The most notable difference was that wrestlers could now touch their opponent’s legs, thus making it easier to take them down. Finally, in the United States, a style known as folkstyle was invented. The rules were similar to that of freestyle, but the scoring structure was now much more rigid, being based more on control rather than back exposure.
 
 Wrestling tremendously impacted ancient Roman and Greek culture, playing a significant part in both the art and leisure activities that people took part in and enjoyed. Through its rapid growth in popularity, wrestling from a mere training strategy into an internationally recognized major sport that ended up spreading across the world.
-</Text>

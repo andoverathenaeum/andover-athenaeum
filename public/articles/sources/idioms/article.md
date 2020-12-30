@@ -1,9 +1,4 @@
-<Author>
-	<Name>Adrian Lin</Name>
-  <Image>adrian.png</Image>
-</Author>
-
-<Text><c><big>Classics Phrases and Idioms</big>
+<c><big>Classics Phrases and Idioms</big>
 “<em>In absentia lucis, Tenebrae vincunt.</em>”
 In the absence of light, darkness prevails
 
@@ -34,4 +29,3 @@ Remember to “<em>semper ubi sub ubi</em>”
 What do you call Santa’s little helpers?
 Subordinate Clauses
 </c>
-</Text>

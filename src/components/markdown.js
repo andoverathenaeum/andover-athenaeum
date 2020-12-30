@@ -51,6 +51,7 @@ export default function Markdown({src, columns = 1}) {
             .replace(/<Image>(.*?)<\/Image>/g, `<img src="${srcDir}/$1"  alt="$1"/>`)
             .replace(/<Image width:(.*?)>(.*?)<\/Image>/g, `<img src="${srcDir}/$2"  alt="$2" style="width: $1;"/>`)
             .replace(/<Image float:(.*?)>(.*?)<\/Image>/g, `<img src="${srcDir}/$2"  alt="$2" style="float: $1;"/>`)
+            .replace(/<Image width:(.*?) float:(.*?)>(.*?)<\/Image>/g, `<img src="${srcDir}/$3"  alt="$3" style="width: $1; float: $2;"/>`)
         )))
         .catch(console.log)
 
