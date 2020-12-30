@@ -68,7 +68,7 @@ export default function Article({}) {
                     <span className="sr-only">{author}</span>
                     <img
                       className="h-32 w-32 object-cover rounded-full transform hover:scale-105 transition-all"
-                      src={`/authors/${images[ author ] && images[ author ][ 'src' ]}`}
+                      src={`/authors/sources/${images[ author ] && images[ author ][ 'src' ]}`}
                       alt=""
                     />
                   </div>
