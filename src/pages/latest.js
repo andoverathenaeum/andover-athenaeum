@@ -28,7 +28,7 @@ export default function Latest() {
 
                 Promise.all(articlePromises)
                     .then(is => Promise.all(is.map(i => i.text())))
-                    .then((i) => setPreviews(i.map((article) => (article.replace(/<.*?>/g, " ").replace(/#/g, " ").replace(/[\w,\s-_]+\.[A-Za-z]{3}/g, "")))))
+                    .then((i) => setPreviews(i.map((article) => (article.replace(/<.*?>/g, " ").replace(/#/g, " ").replace(/[\w,\s-_]+\.[A-Za-z]{3,4}/g, "")))))
             })
     }
 
