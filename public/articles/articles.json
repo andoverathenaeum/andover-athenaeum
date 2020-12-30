@@ -47,28 +47,6 @@
       ]
     },
     {
-      "slug": "alpheios",
-      "title": "Alpheios",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "Alpheios",
-      "columns": 1,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "latin-isnt-dead-yet",
-      "title": "Latin Isn't Dead Yet",
-      "issue": "Spring 2020",
-      "section": "News",
-      "source": "latindead",
-      "columns": 1,
-      "authors": [
-        "Esme Huh"
-      ]
-    },
-    {
       "slug": "teacher-feature-mrs-carter",
       "title": "Teacher Feature: Mrs. Carter",
       "issue": "Spring 2020",
@@ -91,6 +69,48 @@
       ]
     },
     {
+      "slug": "latin-isnt-dead-yet",
+      "title": "Latin Isn't Dead Yet",
+      "issue": "Spring 2020",
+      "section": "News",
+      "source": "latindead",
+      "columns": 1,
+      "authors": [
+        "Esme Huh"
+      ]
+    },
+    {
+      "slug": "jonathan-shay",
+      "title": "Jonathan Shay",
+      "issue": "Spring 2020",
+      "section": "News",
+      "source": "jonathanshay",
+      "authors": [
+        "Adrian Lin"
+      ]
+    },
+    {
+      "slug": "mary-beard",
+      "title": "Mary Beard",
+      "issue": "Spring 2020",
+      "section": "News",
+      "source": "mbeard",
+      "authors": [
+        "Adrian Lin"
+      ]
+    },
+    {
+      "slug": "alpheios",
+      "title": "Alpheios",
+      "issue": "Spring 2020",
+      "section": "Literary",
+      "source": "Alpheios",
+      "columns": 1,
+      "authors": [
+        "Jonathan Fu"
+      ]
+    },
+    {
       "slug": "classics-classes",
       "title": "Classics Classes",
       "issue": "Spring 2020",
@@ -107,26 +127,6 @@
       "section": "Literary",
       "source": "ClassicsClub",
       "columns": 2,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "classics-crossword",
-      "title": "Classics Crossword",
-      "issue": "Spring 2020",
-      "section": "Classics Fun",
-      "source": "cw",
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
-      "slug": "did-you-know",
-      "title": "Did You Know?",
-      "issue": "Spring 2020",
-      "section": "Classics Fun",
-      "source": "funfacts",
       "authors": [
         "Jonathan Fu"
       ]
@@ -184,26 +184,6 @@
       ]
     },
     {
-      "slug": "jonathan-shay",
-      "title": "Jonathan Shay",
-      "issue": "Spring 2020",
-      "section": "News",
-      "source": "jonathanshay",
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
-      "slug": "mary-beard",
-      "title": "Mary Beard",
-      "issue": "Spring 2020",
-      "section": "News",
-      "source": "mbeard",
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
       "slug": "wrestling-in-ancient-rome-and-greece",
       "title": "Wrestling in Ancient Rome and Greece",
       "issue": "Spring 2020",
@@ -252,6 +232,26 @@
       "columns": 2,
       "authors": [
         "Jake Zummo"
+      ]
+    },
+    {
+      "slug": "classics-crossword",
+      "title": "Classics Crossword",
+      "issue": "Spring 2020",
+      "section": "Classics Fun",
+      "source": "cw",
+      "authors": [
+        "Adrian Lin"
+      ]
+    },
+    {
+      "slug": "did-you-know",
+      "title": "Did You Know?",
+      "issue": "Spring 2020",
+      "section": "Classics Fun",
+      "source": "funfacts",
+      "authors": [
+        "Jonathan Fu"
       ]
     }
   ]
