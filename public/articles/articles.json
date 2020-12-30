@@ -1,258 +1,260 @@
-{
-  "issue": "Spring 2020",
-  "articles": [
-    {
-      "slug": "editors-letter",
-      "title": "Editor's Letter",
-      "issue": "Spring 2020",
-      "section": "Introduction",
-      "source": "EditorsLetter",
-      "columns": 2,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "pearson-hall",
-      "title": "Pearson Hall",
-      "issue": "Spring 2020",
-      "section": "Feature",
-      "source": "pearson",
-      "authors": [
-        "Jonathan Fu",
-        "Nakul Iyer",
-        "William Yue"
-      ]
-    },
-    {
-      "slug": "student-feature-axel-ladd",
-      "title": "Student Feature: Axel Ladd",
-      "issue": "Spring 2020",
-      "section": "Feature",
-      "source": "aladd",
-      "columns": 1,
-      "authors": [
-        "Nakul Iyer"
-      ]
-    },
-    {
-      "slug": "alumni-feature-brian-ko",
-      "title": "Alumni Feature: Brian Ko '19",
-      "issue": "Spring 2020",
-      "section": "Feature",
-      "source": "bko",
-      "columns": 1,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "teacher-feature-mrs-carter",
-      "title": "Teacher Feature: Mrs. Carter",
-      "issue": "Spring 2020",
-      "section": "Feature",
-      "source": "carter",
-      "columns": 1,
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
-      "slug": "books-to-start-learning-classics",
-      "title": "Books to Start Learning Classics",
-      "issue": "Spring 2020",
-      "section": "Feature",
-      "source": "BooksToStartLearning",
-      "columns": 1,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "latin-isnt-dead-yet",
-      "title": "Latin Isn't Dead Yet",
-      "issue": "Spring 2020",
-      "section": "News",
-      "source": "latindead",
-      "columns": 1,
-      "authors": [
-        "Esme Huh"
-      ]
-    },
-    {
-      "slug": "jonathan-shay",
-      "title": "Jonathan Shay",
-      "issue": "Spring 2020",
-      "section": "News",
-      "source": "jonathanshay",
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
-      "slug": "mary-beard",
-      "title": "Mary Beard",
-      "issue": "Spring 2020",
-      "section": "News",
-      "source": "mbeard",
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
-      "slug": "alpheios",
-      "title": "Alpheios",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "Alpheios",
-      "columns": 1,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "classics-classes",
-      "title": "Classics Classes",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "ClassicsClasses",
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "classics-club",
-      "title": "Classics Club",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "ClassicsClub",
-      "columns": 2,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "pythagoras",
-      "title": "Pythagoras",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "yue",
-      "authors": [
-        "William Yue"
-      ]
-    },
-    {
-      "slug": "duolingo-latin",
-      "title": "Duolingo Latin",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "DuolingoLatin",
-      "columns": 2,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "learn-classics-reading-books-and-media",
-      "title": "Learn Classics: Reading, Books, and Media",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "FeaturedReadings",
-      "columns": 2,
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "lupa",
-      "title": "Lupa",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "lupa",
-      "authors": [
-        "Kelly Song"
-      ]
-    },
-    {
-      "slug": "classics-phrases-and-idioms",
-      "title": "Classics Phrases and Idioms",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "idioms",
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
-      "slug": "wrestling-in-ancient-rome-and-greece",
-      "title": "Wrestling in Ancient Rome and Greece",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "wrestling",
-      "authors": [
-        "Arnav Bhakta"
-      ]
-    },
-    {
-      "slug": "digital-feature-spqr-and-ancient-greek-apps",
-      "title": "Digital Feature: SPQR and Ancient Greek Apps",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "SPQRAncientGreekApps",
-      "authors": [
-        "Jonathan Fu"
-      ]
-    },
-    {
-      "slug": "petrarch-and-his-revival-of-classical-culture",
-      "title": "Petrarch and His Revival of Classical Culture",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "petrarch",
-      "authors": [
-        "Aaron Chung"
-      ]
-    },
-    {
-      "slug": "plagues-in-antiquity",
-      "title": "Plagues in Antiquity",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "plagues",
-      "authors": [
-        "Jake Zummo"
-      ]
-    },
-    {
-      "slug": "mary-beards-spqr-explores-what-it-means-to-find-rome",
-      "title": "Mary Beard’s SPQR Explores What It Means to Find Rome",
-      "issue": "Spring 2020",
-      "section": "Literary",
-      "source": "SPQRBookReview",
-      "columns": 2,
-      "authors": [
-        "Jake Zummo"
-      ]
-    },
-    {
-      "slug": "classics-crossword",
-      "title": "Classics Crossword",
-      "issue": "Spring 2020",
-      "section": "Classics Fun",
-      "source": "cw",
-      "authors": [
-        "Adrian Lin"
-      ]
-    },
-    {
-      "slug": "did-you-know",
-      "title": "Did You Know?",
-      "issue": "Spring 2020",
-      "section": "Classics Fun",
-      "source": "funfacts",
-      "authors": [
-        "Jonathan Fu"
-      ]
-    }
-  ]
-}
+[
+  {
+    "issue": "Spring 2020",
+    "articles": [
+      {
+        "slug": "editors-letter",
+        "title": "Editor's Letter",
+        "issue": "Spring 2020",
+        "section": "Introduction",
+        "source": "EditorsLetter",
+        "columns": 2,
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "pearson-hall",
+        "title": "Pearson Hall",
+        "issue": "Spring 2020",
+        "section": "Feature",
+        "source": "pearson",
+        "authors": [
+          "Jonathan Fu",
+          "Nakul Iyer",
+          "William Yue"
+        ]
+      },
+      {
+        "slug": "student-feature-axel-ladd",
+        "title": "Student Feature: Axel Ladd",
+        "issue": "Spring 2020",
+        "section": "Feature",
+        "source": "aladd",
+        "columns": 1,
+        "authors": [
+          "Nakul Iyer"
+        ]
+      },
+      {
+        "slug": "alumni-feature-brian-ko",
+        "title": "Alumni Feature: Brian Ko '19",
+        "issue": "Spring 2020",
+        "section": "Feature",
+        "source": "bko",
+        "columns": 1,
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "teacher-feature-mrs-carter",
+        "title": "Teacher Feature: Mrs. Carter",
+        "issue": "Spring 2020",
+        "section": "Feature",
+        "source": "carter",
+        "columns": 1,
+        "authors": [
+          "Adrian Lin"
+        ]
+      },
+      {
+        "slug": "books-to-start-learning-classics",
+        "title": "Books to Start Learning Classics",
+        "issue": "Spring 2020",
+        "section": "Feature",
+        "source": "BooksToStartLearning",
+        "columns": 1,
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "latin-isnt-dead-yet",
+        "title": "Latin Isn't Dead Yet",
+        "issue": "Spring 2020",
+        "section": "News",
+        "source": "latindead",
+        "columns": 1,
+        "authors": [
+          "Esme Huh"
+        ]
+      },
+      {
+        "slug": "jonathan-shay",
+        "title": "Jonathan Shay",
+        "issue": "Spring 2020",
+        "section": "News",
+        "source": "jonathanshay",
+        "authors": [
+          "Adrian Lin"
+        ]
+      },
+      {
+        "slug": "mary-beard",
+        "title": "Mary Beard",
+        "issue": "Spring 2020",
+        "section": "News",
+        "source": "mbeard",
+        "authors": [
+          "Adrian Lin"
+        ]
+      },
+      {
+        "slug": "alpheios",
+        "title": "Alpheios",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "Alpheios",
+        "columns": 1,
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "classics-classes",
+        "title": "Classics Classes",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "ClassicsClasses",
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "classics-club",
+        "title": "Classics Club",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "ClassicsClub",
+        "columns": 2,
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "pythagoras",
+        "title": "Pythagoras",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "yue",
+        "authors": [
+          "William Yue"
+        ]
+      },
+      {
+        "slug": "duolingo-latin",
+        "title": "Duolingo Latin",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "DuolingoLatin",
+        "columns": 2,
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "learn-classics-reading-books-and-media",
+        "title": "Learn Classics: Reading, Books, and Media",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "FeaturedReadings",
+        "columns": 2,
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "lupa",
+        "title": "Lupa",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "lupa",
+        "authors": [
+          "Kelly Song"
+        ]
+      },
+      {
+        "slug": "classics-phrases-and-idioms",
+        "title": "Classics Phrases and Idioms",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "idioms",
+        "authors": [
+          "Adrian Lin"
+        ]
+      },
+      {
+        "slug": "wrestling-in-ancient-rome-and-greece",
+        "title": "Wrestling in Ancient Rome and Greece",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "wrestling",
+        "authors": [
+          "Arnav Bhakta"
+        ]
+      },
+      {
+        "slug": "digital-feature-spqr-and-ancient-greek-apps",
+        "title": "Digital Feature: SPQR and Ancient Greek Apps",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "SPQRAncientGreekApps",
+        "authors": [
+          "Jonathan Fu"
+        ]
+      },
+      {
+        "slug": "petrarch-and-his-revival-of-classical-culture",
+        "title": "Petrarch and His Revival of Classical Culture",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "petrarch",
+        "authors": [
+          "Aaron Chung"
+        ]
+      },
+      {
+        "slug": "plagues-in-antiquity",
+        "title": "Plagues in Antiquity",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "plagues",
+        "authors": [
+          "Jake Zummo"
+        ]
+      },
+      {
+        "slug": "mary-beards-spqr-explores-what-it-means-to-find-rome",
+        "title": "Mary Beard’s SPQR Explores What It Means to Find Rome",
+        "issue": "Spring 2020",
+        "section": "Literary",
+        "source": "SPQRBookReview",
+        "columns": 2,
+        "authors": [
+          "Jake Zummo"
+        ]
+      },
+      {
+        "slug": "classics-crossword",
+        "title": "Classics Crossword",
+        "issue": "Spring 2020",
+        "section": "Classics Fun",
+        "source": "cw",
+        "authors": [
+          "Adrian Lin"
+        ]
+      },
+      {
+        "slug": "did-you-know",
+        "title": "Did You Know?",
+        "issue": "Spring 2020",
+        "section": "Classics Fun",
+        "source": "funfacts",
+        "authors": [
+          "Jonathan Fu"
+        ]
+      }
+    ]
+  }
+]

@@ -8,6 +8,7 @@ export default function Article({}) {
     const [images, setImages] = useState(null)
     const [articleMeta, setArticleMeta] = useState(null)
     const [articleMdUrl, setArticleMdUrl] = useState(null)
+    const [adverts, setAdverts] = useState(null)
 
     const router = useRouter()
     const {slug} = router.query
@@ -16,12 +17,20 @@ export default function Article({}) {
         fetch('/articles/articles.json')
             .then((i) => i.json())
             .then(function (i) {
+                i = i[0]
+                fetch('/adverts/adverts.json')
+                    .then((j) => j.json())
+                    .then(function (j) {
+                        setAdverts(j[i['issue']])
+                    })
+                    .catch(console.log)
                 const article = _.find(i['articles'], (o) => o['slug'] === slug)
                 if (article) {
                     setArticleMeta(article)
                     setArticleMdUrl(`/articles/sources/${article['source']}/article.md`)
                 }
             })
+            .catch(console.log)
     }
 
     if (images === null) {
@@ -94,6 +103,10 @@ export default function Article({}) {
                 </tr>
                 </tbody>
             </table>
+            {adverts && adverts.length > 0 && <div style={{ width: 500 }} className="mx-auto">
+                <h2 className="utopia">This article was brought to you by:</h2>
+                <div>{adverts ? adverts.map((src) => <img src={`/adverts/sources/${src}`} alt={src} style={{ width: 500}} />) : null}</div>
+            </div>}
         </div>
     )
 }

@@ -9,11 +9,20 @@ export default function Latest() {
     const [images, setImages] = useState(null)
     const [previews, setPreviews] = useState(null)
     const [sectionColorMapping, setSectionColorMapping] = useState({})
+    const [pdf, setPdf] = useState('')
 
     if (articles === null) {
         fetch('/articles/articles.json')
             .then((i) => i.json())
             .then(function (i) {
+                i = i[0]
+                fetch('/pdfs/pdfs.json')
+                    .then((j) => j.json())
+                    .then(function (j) {
+                        setPdf(j[i['issue']])
+                    })
+                    .catch(console.log)
+
                 setIssueTitle(i['issue'])
                 setArticles(i['articles'])
                 const articlePromises = i['articles'].map(({source}) => fetch(`/articles/sources/${source}/article.md`))
@@ -53,7 +62,7 @@ export default function Latest() {
                         {issueTitle} Issue
                     </p>
                 </div>
-                <div className="mt-3 grid pt-12 lg:grid-cols-5">
+                <div className="mt-3 mb-3 grid pt-12 lg:grid-cols-5">
                     {articles?.map(({slug, title, section, authors}, i) =>
                         <div key={i}>
                             <Link
@@ -109,6 +118,23 @@ export default function Latest() {
                             </Link>
                         </div>
                     )}
+                </div>
+                <div className="w-full p-10 flex justify-center items-center" style={{height: 650}}>
+                    <object data={`/pdfs/sources/${pdf}`} type="application/pdf" className="" width={400}
+                            height={600}>
+                        <embed src={`/pdfs/sources/${pdf}`} type="application/pdf" width={400} height={600}/>
+                    </object>
+                    <a href={`/pdfs/sources/${pdf}`}>
+                        <button
+                            type="button"
+                            className="transition-all w-64 ml-20 cinzel-md text-center tracking-wider leading-8 inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none"
+                            style={{
+                                marginTop: 20
+                            }}
+                        >
+                            Or Download Our Print Version
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
