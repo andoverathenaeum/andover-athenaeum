@@ -6,7 +6,11 @@ export default function About() {
     if (images === null) {
         fetch('/authors/authors.json')
             .then((i) => i.json())
-            .then(setImages)
+            .then((o) => {
+                const { club, former, board } = o
+                setImages(Object.assign(club, former, board))
+            })
+            .catch(console.log)
     }
 
     return (
@@ -55,7 +59,7 @@ export default function About() {
                     {images !== null && Object.keys(images).map((author, i) =>
                         <div className="w-full flex m-6" key={i}>
                             <div
-                                className="flex flex-col items-center space-y-2"
+                                className="flex flex-col items-center space-y-2 w-32"
                             >
                                 <div className="flex-shrink-0">
                                     <span className="sr-only">{author}</span>
@@ -66,7 +70,7 @@ export default function About() {
                                     />
                                 </div>
                                 <div className="ml-3">
-                                    <p className="utopia-light text-md text-gray-900">
+                                    <p className="utopia-light text-md text-gray-900 text-center">
                                         {author}
                                     </p>
                                 </div>

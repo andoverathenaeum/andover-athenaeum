@@ -35,7 +35,11 @@ export default function Latest() {
     if (images === null) {
         fetch('/authors/authors.json')
             .then((i) => i.json())
-            .then(setImages)
+            .then((o) => {
+                const {club, former, board} = o
+                setImages(Object.assign(club, former, board))
+            })
+            .catch(console.log)
     }
 
     return (
