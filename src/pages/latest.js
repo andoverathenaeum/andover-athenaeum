@@ -3,6 +3,17 @@ import Link from 'next/link'
 
 const COLORS = ['red', 'yellow', 'green', 'indigo', 'purple', 'pink', 'blue', 'gray']
 
+const COLORS_NEW = [
+    {bg: '#FEE2E2', text: '#991B1B'},
+    {bg: '#FEF3C7', text: '#92400E'},
+    {bg: '#D1FAE5', text: '#065F46'},
+    {bg: '#E0E7FF', text: '#3730A3'},
+    {bg: '#EDE9FE', text: '#5B21B6'},
+    {bg: '#FCE7F3', text: '#9D174D'},
+    {bg: '#DBEAFE', text: '#1E40AF'},
+    {bg: '#F3F4F6', text: '#1F2937'}
+]
+
 export default function Latest() {
     const [issueTitle, setIssueTitle] = useState('')
     const [articles, setArticles] = useState(null)
@@ -29,7 +40,7 @@ export default function Latest() {
                 let color_index = 0
                 setSectionColorMapping(i['articles'].reduce((o, {section}) => {
                     if (!o?.hasOwnProperty(section)) {
-                        o[section] = COLORS[color_index]
+                        o[section] = COLORS_NEW[color_index]
                         color_index += 1
                     }
                     return o
@@ -72,9 +83,11 @@ export default function Latest() {
                                 <div className="transition-all cursor-pointer p-6 hover:bg-gray-100">
                                     <div>
                                             <span
-                                                className={`inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium 
-                                                bg-${sectionColorMapping?.hasOwnProperty(section) ? sectionColorMapping[section] : 'red'}-100 
-                                                text-${sectionColorMapping?.hasOwnProperty(section) ? sectionColorMapping[section] : 'red'}-800`}
+                                                className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium"
+                                                style={{
+                                                    backgroundColor: sectionColorMapping?.hasOwnProperty(section) ? sectionColorMapping[section].bg : COLORS_NEW[0].bg,
+                                                    color: sectionColorMapping?.hasOwnProperty(section) ? sectionColorMapping[section].text : COLORS_NEW[0].text
+                                                }}
                                             >
                                                 {section}
                                             </span>
