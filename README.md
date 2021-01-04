@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <h3 align="center"><img src="/public/assets/logo_300dpi.png" width="250px"></img></h3>
 
-## Getting Started
+  <h1 align="center">
+     Andover Athenaeum Codebase
+  </h1>
+</p>
 
-First, run the development server:
+This site is built with NextJS, React, and TailwindCSS. A complete understanding of those languages is not necessary to upload articles though.
+
+## Uploading/Editing Articles
+
+All static data, like articles, images, the table of contents, etc is in `/public`. There are four main folders here, `adverts`, `articles`, `authors`, and `pdfs`. Each one has a similar json file in it that's accessed dynamically by the javascript and populates the site with data.
+
+Notes:
+* `slug` in this case means the "url friendly" title. So just the alphanumeric characters in the title, lower-cased, with spaces as dashes.
+* In the case of `adverts`, `pdfs`, and `authors`, `sources` contains raw image or pdf files that are referenced in the json. With `articles`, the names in the json are references to directories. The actual raw article is always called `article.md`. The folder contains any images used in the article.
+* The first entry of `articles.json` is the one used in the latest view.
+* `article.md` is a **Markdown** file. In general, articles can be written in HTML here.
+    * One notable shortcut is that `<img src="/articles/sources/name/source.png" />` has been reduced to `<Image>source.png</Image>`, `<Image width:---px>source.png</Image>` or `<Image float:left|right>source.png</Image>`.
+* Committing to master starts the deployment process. Under `andoverathenaeum@gmail.com`, go to this repo in Github -> Settings, the "Github Pages" section and type "www.andoverathenaeum.com" into the custom domains part.
+
+## Dev
 
 ```bash
 npm run dev
@@ -10,21 +28,6 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Authors
+* Nakul Iyer '20, email: nakulpiyer@gmail.com
+* Andrew Falcon '22, email: afalcon22@andover.edu
