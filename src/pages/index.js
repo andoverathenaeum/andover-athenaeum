@@ -40,7 +40,12 @@ export default function Home() {
                         className="cinzel-lg text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none"
                         style={{paddingTop: 'calc(50vh - 150px)'}}
                     >
-                        Phillips Academy's <span className="text-indigo-800">Classics Magazine</span>
+                        Welcome to <span className="text-indigo-800">Andover Athenaeum</span>
+                    </div>
+                    <div
+                        className="cinzel-md mt-3 text-xl tracking-tight leading-10 font-extrabold text-gray-600 sm:text-5xl sm:leading-none"
+                    >
+                        Phillips Academy's Classics Magazine
                     </div>
                     <Link href={'/latest'}>
                         <button

@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import Head from 'next/head'
 import {DefaultSeo} from 'next-seo'
 import {Navigation} from '../layouts/navigation'
 import React, {Fragment} from 'react'
@@ -23,6 +24,9 @@ const DEFAULT_SEO_CONFIG = {
 function MyApp({Component, pageProps}) {
     return (
         <Fragment>
+            <Head>
+                <link rel="shortcut icon" href="/public/favicon.ico" />
+            </Head>
             <DefaultSeo {...DEFAULT_SEO_CONFIG} />
             <Navigation>
                 <Component {...pageProps} />
