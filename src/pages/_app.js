@@ -25,7 +25,7 @@ function MyApp({Component, pageProps}) {
     return (
         <Fragment>
             <Head>
-                <link rel="shortcut icon" href="/public/favicon.ico" />
+                <link rel="shortcut icon" href="favicon.ico" />
             </Head>
             <DefaultSeo {...DEFAULT_SEO_CONFIG} />
             <Navigation>
