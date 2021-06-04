@@ -17,12 +17,12 @@ export function Footer() {
           style={{ width: 20 }}
           alt=""
         />andoverathenaeum</a></li>
-        <li><a href="https://twitter.com/andoverathenae1"><img
-          src="/assets/twitter.png"
-          className="inline mr-2"
-          style={{ width: 20 }}
-          alt=""
-        />andoverathenae1</a></li>
+        // <li><a href="https://twitter.com/andoverathenae1"><img
+        //   src="/assets/twitter.png"
+        //   className="inline mr-2"
+        //   style={{ width: 20 }}
+        //   alt=""
+        // />andoverathenae1</a></li>
       </ul>
     </nav>
   )
