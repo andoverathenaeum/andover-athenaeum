@@ -1,0 +1,4 @@
+1.  Andover Athenaeum strives to maintain professional standards of accuracy, objectivity, and fairness at all times.
+2.  Staff members have the responsibility to redact or exclude articles that are deemed unfit to publish if they are off-topic, obscene, or libelous. Articles are considered off-topic if, and only if, they are unrelated to the Classics world. These edits are necessary to maintain integrity and value in the magazine’s content.
+3.  Aside from the aforementioned rights, staff members will not censor student contributions, particularly literary entries, to the magazine.
+4.  Andover Athenaeum’s staff assumes total responsibility for the publication of all content in its magazine.
