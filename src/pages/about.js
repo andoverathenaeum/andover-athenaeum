@@ -81,26 +81,26 @@ export default function About() {
             <p className="prose article text-center" style={{maxWidth: "100% !important"}}><h2>Board applications will
                 be released to all club members who are Juniors, Lowers, or Uppers. Experience in the Latin or Greek
                 languages is preferred for most positions, but not required.</h2></p>
-            <table cellPadding="10" className="meet-board w-full title">
-                <tbody>
-                <tr>
-                    <th width="50%"><h2>Other Club Members</h2></th>
-                    <th width="50%"><h2>Former Club Members</h2></th>
-                </tr>
-                </tbody>
-            </table>
-            <table cellPadding="10" className="meet-board w-full text-center cinzel-md">
-                <tbody>
-                <tr>
-                    <td className="align-baseline">
-                        {images !== null && Object.keys(images['club']).map((author, i) => <h3 key={i}>{author}</h3>)}
-                    </td>
-                    <td className="align-baseline">
-                        {images !== null && Object.keys(images['former']).map((author, i) => <h3 key={i}>{author}</h3>)}
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            // <table cellPadding="10" className="meet-board w-full title">
+            //     <tbody>
+            //     <tr>
+            //         <th width="50%"><h2>Other Club Members</h2></th>
+            //         <th width="50%"><h2>Former Club Members</h2></th>
+            //     </tr>
+            //     </tbody>
+            // </table>
+            // <table cellPadding="10" className="meet-board w-full text-center cinzel-md">
+            //     <tbody>
+            //     <tr>
+            //         <td className="align-baseline">
+            //             {images !== null && Object.keys(images['club']).map((author, i) => <h3 key={i}>{author}</h3>)}
+            //         </td>
+            //         <td className="align-baseline">
+            //             {images !== null && Object.keys(images['former']).map((author, i) => <h3 key={i}>{author}</h3>)}
+            //         </td>
+            //     </tr>
+            //     </tbody>
+            // </table>
         </div>
     )
 }
